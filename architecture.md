@@ -10,7 +10,7 @@
 
                       ↓
 
-        Level 2 — Data maturity (L1 → L5)
+        Level 2 — Data maturity (1 → 5)
         ---------------------------------
         Uses | Data | Leadership | Culture | Tools | Skills
         Source: maturity assessments, surveys,
