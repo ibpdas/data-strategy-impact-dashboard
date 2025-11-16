@@ -3,6 +3,7 @@
 ![Static HTML](https://img.shields.io/badge/Format-HTML%20Dashboard-lightgrey)
 ![Talk Included](https://img.shields.io/badge/Talk-Included-blueviolet)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![AI Confident](https://img.shields.io/badge/Framework-AI%20Confident-brightgreen)
 
 
 # Model Department X - Data Strategy Impact Dashboard
