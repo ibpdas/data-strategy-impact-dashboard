@@ -51,7 +51,7 @@ These are shown as RAG rated pillar cards, each with a short "going well" and "n
 
 ### Level 2 - Enable maturity
 
-System wide maturity across six themes using government data maturity framework )2023):
+System wide maturity across six themes using government data maturity framework (2023):
 
 - Uses  
 - Data  
