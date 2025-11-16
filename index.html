@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Model Department - Data strategy impact in a federated organisation</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card-bg: #ffffff;
+      --border: #e0e0e0;
+      --text-main: #111111;
+      --text-muted: #555555;
+      --pill-bg: #f8fafc;
+      --rag-green: #16a34a;
+      --rag-amber: #f59e0b;
+      --rag-red: #dc2626;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: var(--bg);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text-main);
+    }
+
+    .page { max-width: 1400px; margin: 0 auto; }
+
+    h1 { margin: 0 0 4px; font-size: 32px; }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .template-note {
+      font-size: 13px;
+      color: #6b7280;
+      margin: 4px 0 16px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 2.1fr 1.2fr;
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 18px;
+      margin-bottom: 12px;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .card-subtitle {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .levels-legend {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .level-pill {
+      background: #f9fafb;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      padding: 8px 12px;
+      font-size: 11px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .level-pill span:first-child {
+      font-weight: 700;
+      font-size: 11px;
+    }
+
+    .level-pill span:last-child {
+      color: var(--text-muted);
+      font-size: 11px;
+    }
+
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .pillar-card {
+      background: var(--pill-bg);
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .pillar-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .pillar-name {
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .rag-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .rag-green { background: var(--rag-green); }
+    .rag-amber { background: var(--rag-amber); }
+    .rag-red   { background: var(--rag-red); }
+
+    .pillar-body {
+      font-size: 11px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 5px 11px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      font-size: 11px;
+      font-weight: 600;
+      background: #f9fafb;
+      margin-top: 8px;
+    }
+
+    .trend-card {
+      margin-top: 10px;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px dashed var(--border);
+      background: #f9fafb;
+    }
+
+    .trend-title {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .trend-chart {
+      width: 100%;
+      height: 40px;
+    }
+
+    .maturity-layout {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .maturity-text {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .radar-container {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    .maturity-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    .maturity-table th,
+    .maturity-table td {
+      padding: 4px 6px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .maturity-table th {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .maturity-notes {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .metric-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 13px;
+      gap: 8px;
+    }
+
+    .metric-label {
+      color: var(--text-muted);
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .metric-value {
+      font-size: 18px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .metric-value-small {
+      font-size: 13px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .impact-block-title {
+      font-size: 14px;
+      font-weight: 700;
+      margin: 14px 0 4px;
+    }
+
+    .impact-item-title {
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .impact-item-text {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 700;
+      margin-left: 4px;
+      color: #ffffff;
+      white-space: nowrap;
+    }
+
+    .badge-leading { background: #0ea5e9; }
+    .badge-signal  { background: #6b7280; }
+    .badge-lagging { background: #a855f7; }
+
+    footer {
+      margin-top: 32px;
+      font-size: 11px;
+      color: #9ca3af;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <h1>Model Department X - Data strategy impact in a federated organisation</h1>
+    <div class="subtitle">Public sector data leaders | Synthetic example | Reuseable Excel, PowerPoint, Streamlit and HTML template available on request</div>
+    <div class="subtitle">Year 2 of 5 Year Roadmap. Period 7 of Year 2 - Financial Year 2025-26</div>
+
+    <div class="subtitle">
+      Three level causal model showing how Level 1 conditions, Level 2 maturity and Level 3 outcomes
+      combine to demonstrate data strategy impact in a federated organisation.
+    </div>
+
+    <div class="levels-legend">
+      <div class="level-pill">
+        <span>Level 1 - Get the basics right</span>
+        <span>Foundational conditions under direct control.</span>
+      </div>
+      <div class="level-pill">
+        <span>Level 2 - Enable maturity</span>
+        <span>Data maturity across uses, data, leadership, culture, tools and skills.</span>
+      </div>
+      <div class="level-pill">
+        <span>Level 3 - Influence outcomes</span>
+        <span>Public value outcomes influenced by levels 1 and 2.</span>
+      </div>
+    </div>
+
+    <div style="font-size:11px; color:#555; margin:8px 0 16px;">
+      <span class="badge badge-leading">LEADING</span> Early indicators of enabling conditions<br>
+      <span class="badge badge-signal">SIGNAL</span> Mid-cycle indicators of system behaviour<br>
+      <span class="badge badge-lagging">LAGGING</span> Outcome indicators of realised value
+    </div>
+
+    <div class="layout">
+      <!-- LEFT COLUMN -->
+      <div>
+        <!-- LEVEL 1 -->
+        <div class="card" style="border-top:3px solid #22c55e;">
+          <div class="card-title">Get the basics right (Level 1)</div>
+          <div class="card-subtitle">
+            Foundational conditions we directly control in a federated department.
+          </div>
+
+          <div class="pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-name">
+                  Strategy
+                  <span class="badge badge-leading">LEADING</span>
+                </div>
+                <span class="rag-pill rag-green"><span>●</span> Green</span>
+              </div>
+              <div class="pillar-body">
+                <strong>Going well:</strong> Clear cross cutting data priorities and roadmap agreed at senior level.<br>
+                <strong>Needs attention:</strong> Prioritisation and sequencing across the wider portfolio.
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-name">
+                  Shared leadership
+                  <span class="badge badge-leading">LEADING</span>
+                </div>
+                <span class="rag-pill rag-amber"><span>●</span> Amber</span>
+              </div>
+              <div class="pillar-body">
+                <strong>Going well:</strong> Data owner and senior sponsor roles exist across key business areas.<br>
+                <strong>Needs attention:</strong> Consistency of ownership and shared decision making across all ALBs and directorates.
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-name">
+                  Foundation
+                  <span class="badge badge-leading">LEADING</span>
+                </div>
+                <span class="rag-pill rag-red"><span>●</span> Red</span>
+              </div>
+              <div class="pillar-body">
+                <strong>Going well:</strong> Some common platforms, reference data and standards defined.<br>
+                <strong>Needs attention:</strong> Legacy systems and fragmented pipelines still create duplication and inconsistency.
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-name">
+                  Community
+                  <span class="badge badge-leading">LEADING</span>
+                </div>
+                <span class="rag-pill rag-amber"><span>●</span> Amber</span>
+              </div>
+              <div class="pillar-body">
+                <strong>Going well:</strong> Active data and analytics communities of practice with strong peer networks.<br>
+                <strong>Needs attention:</strong> Communities rely on volunteer capacity and need more stable resourcing and recognition.
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-name">
+                  Engagement
+                  <span class="badge badge-leading">LEADING</span>
+                </div>
+                <span class="rag-pill rag-green"><span>●</span> Green</span>
+              </div>
+              <div class="pillar-body">
+                <strong>Going well:</strong> Strong interest from policy and operational teams to use data in their work.<br>
+                <strong>Needs attention:</strong> Need more structured onboarding, communications and support journeys for non expert users.
+              </div>
+            </div>
+          </div>
+
+          <div class="trend-card">
+            <div class="trend-title">Overall foundations trend 2021 to 2025 (illustrative)</div>
+            <svg class="trend-chart" viewBox="0 0 200 40">
+              <line x1="10" y1="30" x2="190" y2="30" stroke="#e5e7eb" stroke-width="1" />
+              <polyline points="10,28 60,26 110,22 150,18 190,16" fill="none" stroke="#2563eb" stroke-width="2" />
+              <circle cx="10" cy="28" r="2.5" fill="#2563eb" />
+              <circle cx="60" cy="26" r="2.5" fill="#2563eb" />
+              <circle cx="110" cy="22" r="2.5" fill="#2563eb" />
+              <circle cx="150" cy="18" r="2.5" fill="#2563eb" />
+              <circle cx="190" cy="16" r="2.5" fill="#2563eb" />
+              <text x="10" y="38" font-size="8" text-anchor="middle">2021</text>
+              <text x="60" y="38" font-size="8" text-anchor="middle">2022</text>
+              <text x="110" y="38" font-size="8" text-anchor="middle">2023</text>
+              <text x="150" y="38" font-size="8" text-anchor="middle">2024</text>
+              <text x="190" y="38" font-size="8" text-anchor="middle">2025</text>
+            </svg>
+          </div>
+
+          <span class="tag">ENABLE</span>
+        </div>
+
+        <!-- LEVEL 2 -->
+        <div class="card" style="border-top:3px solid #3b82f6;">
+          <div class="card-title">Enable maturity (Level 2)</div>
+          <div class="card-subtitle">Maturity across six themes using levels 1 to 5.</div>
+
+          <div class="maturity-layout">
+            <div class="maturity-text">
+              Uses, Data, Leadership, Culture, Tools and Skills describe how well the organisation turns data into value.
+              Levels run from 1 Beginning to 5 Mastering and reflect the maturity that emerges from Level 1 foundations.
+            </div>
+            <div class="radar-container">
+              <svg viewBox="0 0 200 200">
+                <polygon points="100,30 161,65 161,135 100,170 39,135 39,65"
+                  fill="none" stroke="#e5e7eb" stroke-width="1" />
+                <polygon points="100,45 149,75 149,125 100,155 51,125 51,75"
+                  fill="none" stroke="#e5e7eb" stroke-width="1" />
+                <polygon points="100,55 145,80 145,122 100,145 55,122 55,80"
+                  fill="#bfdbfe" stroke="#2563eb" stroke-width="1.5" opacity="0.8" />
+                <line x1="100" y1="100" x2="100" y2="30" stroke="#e5e7eb" />
+                <line x1="100" y1="100" x2="161" y2="65" stroke="#e5e7eb" />
+                <line x1="100" y1="100" x2="161" y2="135" stroke="#e5e7eb" />
+                <line x1="100" y1="100" x2="100" y2="170" stroke="#e5e7eb" />
+                <line x1="100" y1="100" x2="39" y2="135" stroke="#e5e7eb" />
+                <line x1="100" y1="100" x2="39" y2="65" stroke="#e5e7eb" />
+                <text x="100" y="20" font-size="9" text-anchor="middle">Uses</text>
+                <text x="174" y="67" font-size="9">Data</text>
+                <text x="174" y="137" font-size="9">Leadership</text>
+                <text x="100" y="184" font-size="9" text-anchor="middle">Culture</text>
+                <text x="26" y="137" font-size="9" text-anchor="end">Tools</text>
+                <text x="26" y="67" font-size="9" text-anchor="end">Skills</text>
+              </svg>
+            </div>
+          </div>
+
+          <table class="maturity-table">
+            <thead>
+              <tr>
+                <th>Theme</th>
+                <th>Level</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Uses
+                  <span class="badge badge-signal">SIGNAL</span>
+                </td>
+                <td>3 of 5</td>
+                <td class="maturity-notes">Data used in some key decisions but not yet consistent across all services.</td>
+              </tr>
+              <tr>
+                <td>
+                  Data
+                  <span class="badge badge-signal">SIGNAL</span>
+                </td>
+                <td>2 of 5</td>
+                <td class="maturity-notes">Core reference data identified but standards adoption is inconsistent.</td>
+              </tr>
+              <tr>
+                <td>
+                  Leadership
+                  <span class="badge badge-leading">LEADING</span>
+                </td>
+                <td>3 of 5</td>
+                <td class="maturity-notes">Senior leaders value data but sponsorship and focus varies by area.</td>
+              </tr>
+              <tr>
+                <td>
+                  Culture
+                  <span class="badge badge-lagging">LAGGING</span>
+                </td>
+                <td>2 of 5</td>
+                <td class="maturity-notes">Growing openness to sharing data but some silos and risk aversion remain.</td>
+              </tr>
+              <tr>
+                <td>
+                  Tools
+                  <span class="badge badge-leading">LEADING</span>
+                </td>
+                <td>2 of 5</td>
+                <td class="maturity-notes">Mix of modern tools and legacy systems with limited self service analytics.</td>
+              </tr>
+              <tr>
+                <td>
+                  Skills
+                  <span class="badge badge-signal">SIGNAL</span>
+                </td>
+                <td>3 of 5</td>
+                <td class="maturity-notes">Analytical teams are strong; wider business literacy is increasing but uneven.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <span class="tag">ENABLE</span>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div>
+        <!-- LEVEL 3 OUTCOMES -->
+        <div class="card" style="border-top:3px solid #a855f7;">
+          <div class="card-title">Influence outcomes (Level 3)</div>
+          <div class="card-subtitle">
+            Public value outcomes influenced by maturity and wider system factors.
+          </div>
+
+          <div class="metric-row">
+            <div class="metric-label">
+              Financial savings
+              <span class="badge badge-lagging">LAGGING</span>
+            </div>
+            <div class="metric-value">£12m</div>
+          </div>
+          <div class="metric-row">
+            <div class="metric-label">
+              User satisfaction
+              <span class="badge badge-lagging">LAGGING</span>
+            </div>
+            <div class="metric-value">72%</div>
+          </div>
+          <div class="metric-row">
+            <div class="metric-label">
+              Efficiency
+              <span class="badge badge-lagging">LAGGING</span>
+            </div>
+            <div class="metric-value-small">Medium (improving)</div>
+          </div>
+          <div class="metric-row">
+            <div class="metric-label">
+              Time savings
+              <span class="badge badge-lagging">LAGGING</span>
+            </div>
+            <div class="metric-value-small">1,200 hours per year</div>
+          </div>
+          <div class="metric-row">
+            <div class="metric-label">
+              Public good
+              <span class="badge badge-lagging">LAGGING</span>
+            </div>
+            <div class="metric-value-small">Strong cross government contribution</div>
+          </div>
+
+          <div class="impact-block-title">Impact stories and recognition</div>
+
+          <div class="impact-item">
+            <div class="impact-item-title">Flood modelling impact</div>
+            <div class="impact-item-text">
+              Shared data avoided duplicate monitoring and produced estimated savings of £1.2m while improving flood risk insight.
+            </div>
+          </div>
+
+          <div class="impact-item">
+            <div class="impact-item-title">Land data model</div>
+            <div class="impact-item-text">
+              Integrated land use data model reconciled competing demands and supported more consistent and transparent policy choices.
+            </div>
+          </div>
+
+          <div class="impact-item">
+            <div class="impact-item-title">GovTech recognition</div>
+            <div class="impact-item-text">
+              Programme shortlisted for a national digital or GovTech award, recognising transparency and innovation across government.
+            </div>
+          </div>
+
+          <span class="tag">INFLUENCE</span>
+        </div>
+
+        <!-- EXEC DECISION BOX -->
+        <div class="card" style="border-top:3px solid #f97316;">
+          <div class="card-title">
+            Executive decision box
+            <span class="badge badge-leading">LEADING</span>
+          </div>
+          <div class="card-subtitle">
+            Key trade offs and choices for senior leaders in this period, informed by levels 1 and 2.
+          </div>
+
+          <div class="impact-item">
+            <div class="impact-item-title">Trade offs to manage now</div>
+            <div class="impact-item-text">
+              • Balance investment between business as usual remediation and new capabilities.<br>
+              • Prioritise cross cutting data standards versus urgent operational delivery pressures.<br>
+              • Allocate analytical capacity between regulatory, policy and operational needs.<br>
+              • Decide level of ambition for automation versus manual data collection approaches.<br>
+            </div>
+          </div>
+
+          <span class="tag">DECIDE</span>
+        </div>
+
+        <!-- MEASUREMENT METHODS -->
+        <div class="card" style="border-top:3px solid #0ea5e9;">
+          <div class="card-title">Measurement methods</div>
+          <div class="card-subtitle">
+            How we track progress across Levels 1, 2 and 3 over time.
+          </div>
+
+          <div class="impact-item">
+            <div class="impact-item-title">Reporting rhythms</div>
+            <div class="impact-item-text">
+              ✓ Monthly performance report (RAG, risks, blockers)
+              <span class="badge badge-leading">LEADING</span><br>
+              ✓ Quarterly senior leadership update
+              <span class="badge badge-leading">LEADING</span><br>
+              ✓ Annual data maturity review (full radar)
+              <span class="badge badge-lagging">LAGGING</span><br>
+              ✓ Annual strategy review
+              <span class="badge badge-leading">LEADING</span><br><br>
+
+              <strong>Organisational insight</strong><br>
+              ✓ Annual staff survey (culture, confidence, barriers)
+              <span class="badge badge-lagging">LAGGING</span><br>
+              ✓ Annual stakeholder conversations
+              <span class="badge badge-signal">SIGNAL</span><br><br>
+
+              <strong>Adoption and capability</strong><br>
+              ✓ Event attendance (communities, show and tells)
+              <span class="badge badge-leading">LEADING</span><br>
+              ✓ Training uptake (data literacy, AI literacy)
+              <span class="badge badge-leading">LEADING</span><br>
+              ✓ Ownership coverage for priority datasets and services
+              <span class="badge badge-leading">LEADING</span><br>
+              ✓ Participation in governance forums
+              <span class="badge badge-signal">SIGNAL</span><br><br>
+
+              <strong>System behaviour indicators</strong><br>
+              ✓ Dataset and model reuse rate
+              <span class="badge badge-lagging">LAGGING</span><br>
+              ✓ Reduction of catalouging duplication across ALBs and directorates
+              <span class="badge badge-lagging">LAGGING</span><br>
+              ✓ Adoption of standards, APIs and shared foundations
+              <span class="badge badge-leading">LEADING</span><br><br>
+
+              <strong>Public value</strong><br>
+              ✓ Open data and API service analytics
+              <span class="badge badge-lagging">LAGGING</span><br>
+              ✓ Requests for adivce, support and collaboration
+              <span class="badge badge-signal">SIGNAL</span><br>
+              ✓ External recognition (audit reports, awards)
+              <span class="badge badge-lagging">LAGGING</span><br><br>
+
+              <strong>Benefits realisation</strong><br>
+              ✓ Post implementation reviews
+              <span class="badge badge-lagging">LAGGING</span><br>
+              ✓ Verified time and cost savings
+              <span class="badge badge-lagging">LAGGING</span><br>
+              ✓ Impact case studies with causal chain
+              <span class="badge badge-lagging">LAGGING</span><br>
+            </div>
+          </div>
+
+          <span class="tag">MEASURE</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Built as a learning tool for public sector data leaders by Bandhu P. Das (github.com/ibpdas). Model department only, not real performance data.
+    </footer>
+  </div>
+</body>
+</html>
