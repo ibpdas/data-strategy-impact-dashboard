@@ -37,7 +37,7 @@ All figures and examples are synthetic. They do not represent any real organisat
 
 The dashboard is built around three linked levels.
 
-### Level 1 - Get the basics right
+### Level 1 - Build the enabling foundations
 
 Foundational conditions under data team's control and influence (examples below are illustrative):
 
