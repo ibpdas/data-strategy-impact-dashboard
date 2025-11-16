@@ -1,4 +1,9 @@
 <p align="center">
+  <img src="https://github.com/ibpdas/data-strategy-impact-dashboard/assets/17288006/933fc95f-18ce-4051-ac8d-933bf9637ba1"
+       alt="Data Strategy Impact Dashboard Header"
+       width="100%">
+</p>
+<p align="center">
   <img src="https://img.shields.io/badge/Public%20Sector-Data%20Leadership-blue" alt="Public Sector Data Leadership" />
   <img src="https://img.shields.io/badge/Reusable-Template-success" alt="Reusable Template" />
   <img src="https://img.shields.io/badge/Talk-Included-blueviolet" alt="Talk Included" />
