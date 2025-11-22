@@ -17,7 +17,8 @@
 > This dashboard applies the **ValueLine: Data to Impact model**.  
 > It shows how data strategy activity and foundations (Level 1) lead to data maturity and system behaviour (Level 2) and ultimately public value outcomes (Level 3).  
 >  
-> It provides a clear causal chain, a repeatable dashboard format, and a better way to have executive conversations, prioritise effort and make choices in federated organisations.
+> It provides a clear causal chain, a repeatable dashboard format, and a better way to have executive conversations, prioritise effort and make choices in federated organisations. I facilitates shifting discussions away from “where are the outcomes” toward
+“are the enablers and system conditions in place”
 
 ---
 
@@ -123,12 +124,13 @@ The Methodology page suggests practical measurement cycles, for example:
 - Annual maturity review  
 - Annual staff survey  
 - Event and training participation  
-- Standards adoption  
+- Policy and Standards adoption rates
 - Dataset and model reuse  
 - Open data and API analytics  
-- Post implementation reviews  
-- Verified cost and time savings  
-
+- Verified cost and time savings using benefit trackers
+- Benefit Cost Ratio (BCR) and Net Present Value (NPV) analysis
+- Randomised controlled trials and counterfactuals 
+  
 These give a balanced picture of both **capability building** and **value creation**.
 
 ---
@@ -159,14 +161,12 @@ This framework helps public sector teams:
 - Engage senior leaders using a consistent, repeatable dashboard  
 - Identify where to invest effort next in Level 1 or Level 2  
 - Compare directorates or ALBs within federated departments  
-- Move discussions away from “where are the outcomes” toward  
-  “are the enablers and system conditions in place”  
 
 It is particularly useful for:
 
 - CDO and data leadership teams  
 - Portfolio, PMO and governance forums  
-- Strategy, finance and risk partners  
+- Strategy, finance and policy partners  
 - Internal performance and benefits leads  
 
 ---
