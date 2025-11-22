@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">ValueLine: Data Strategy Impact Dashboard</h1>
+<h1 align="center">ValueLine: A Clearer Line of Sight from Data to Impact </h1>
 
 <p align="center">
   A three level causal model to help public sector data leaders explain, track and demonstrate 
@@ -14,7 +14,7 @@
 ---
 
 > ### 📌 Concept in 30 seconds
-> This dashboard shows how data strategy activity and foundations (Level 1) lead to data maturity and system behaviour (Level 2) and ultimately public value outcomes (Level 3).  
+> This ValueLine model and dashboard show how data strategy activity and foundations (Level 1) lead to data maturity and system behaviour (Level 2) and ultimately public value outcomes (Level 3).  
 
 > It provides a clear causal chain, a repeatable dashboard format, and a better way to have executive conversations, prioritise effort and make choices in federated organisations. 
 
