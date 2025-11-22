@@ -308,7 +308,6 @@
       text-align: center;
     }
 
-    /* New styles for Level 2 maturity heat bar */
     .heat-bar-wrapper {
       margin-top: 8px;
       margin-bottom: 6px;
@@ -356,104 +355,6 @@
       font-size: 11px;
       color: var(--text-muted);
       margin-top: 6px;
-    }
-
-    /* Theory of change visual lanes */
-    .toc-lane-grid {
-      display: grid;
-      grid-template-columns: 0.9fr 1fr 1fr 1fr 1fr;
-      gap: 6px;
-      margin-top: 10px;
-      font-size: 11px;
-    }
-
-    .toc-lane-header {
-      font-size: 11px;
-      font-weight: 700;
-      color: #374151;
-      text-align: center;
-    }
-
-    .toc-lane-header-stage {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 2px;
-    }
-
-    .toc-lane-pill {
-      padding: 2px 8px;
-      border-radius: 999px;
-      background: #e5e7eb;
-      font-size: 10px;
-      font-weight: 600;
-      color: #111827;
-    }
-
-    .toc-lane-row {
-      display: contents;
-    }
-
-    .toc-foundation-name {
-      font-weight: 600;
-      font-size: 12px;
-      color: #111827;
-      padding: 6px 4px;
-      border-top: 1px solid #e5e7eb;
-    }
-
-    .toc-stage {
-      border-radius: 8px;
-      padding: 6px 8px;
-      border: 1px solid #e5e7eb;
-      line-height: 1.45;
-      color: #4b5563;
-      border-top-width: 2px;
-      font-size: 11px;
-    }
-
-    .toc-stage-input {
-      background: #eff6ff;
-      border-top-color: #3b82f6;
-    }
-
-    .toc-stage-output {
-      background: #ecfdf5;
-      border-top-color: #10b981;
-    }
-
-    .toc-stage-outcome {
-      background: #fef3c7;
-      border-top-color: #f59e0b;
-    }
-
-    .toc-stage-impact {
-      background: #f3e8ff;
-      border-top-color: #a855f7;
-    }
-
-    .toc-stage-label {
-      font-weight: 600;
-      font-size: 11px;
-      margin-bottom: 2px;
-      color: #111827;
-    }
-
-    .toc-stage-text {
-      font-size: 11px;
-    }
-
-    .toc-lane-arrow-row {
-      display: grid;
-      grid-template-columns: 0.9fr 1fr 1fr 1fr 1fr;
-      margin-top: 6px;
-      margin-bottom: 4px;
-      font-size: 10px;
-      color: #6b7280;
-    }
-
-    .toc-lane-arrow-row > div {
-      text-align: center;
     }
   </style>
 </head>
@@ -606,7 +507,7 @@
 
         <!-- QUICK WIN METRICS -->
         <div class="card" style="border-top:3px solid #10b981;">
-          <div class="card-title">Accelerator projects (Level 1)<span class="badge badge-leading">LEADING</span></div>
+          <div class="card-title">Accelerator projects (Level 1) <span class="badge badge-leading">LEADING</span></div>
           <div class="card-subtitle">High visibility, iterative deliverables that create confidence and support.</div>
 
           <table class="maturity-table">
@@ -655,7 +556,10 @@
 
         <!-- LEVEL 2 - HEAT BAR VIEW -->
         <div class="card" style="border-top:3px solid #3b82f6;">
-          <div class="card-title">Enable data maturity (Level 2)</div>
+          <div class="card-title">
+            Enable data maturity (Level 2)
+            <span class="badge badge-signal">SIGNAL</span>
+          </div>
           <div class="card-subtitle">
             Whole system signal for how well the organisation turns data into outcomes and impact.
           </div>
@@ -680,8 +584,8 @@
           </div>
 
           <div class="maturity-dimensions">
-            Covers six themes: Uses, Data, Leadership, Culture, Tools and Skills.
-            Detailed breakdown is shown on the methodology page.
+            Covers six themes: Uses, Data, Leadership, Culture, Tools and Skills, following the Data Maturity Assessment for Government.
+            Over time this should shift from reactive reporting and siloed datasets to proactive use of coherent, reusable data, supported by leadership, culture, tools and skills across the system.
           </div>
 
           <span class="tag">ENABLE</span>
@@ -694,7 +598,7 @@
 
         <!-- LEVEL 3 -->
         <div class="card" style="border-top:3px solid #a855f7;">
-          <div class="card-title">Outcomes and impact (Level 3)</div>
+          <div class="card-title">Outcomes and impact (Level 3) <span class="badge badge-lagging">LAGGING</span></div>
           <div class="card-subtitle">
             Organisational outcomes and longer term public value when foundations and maturity take effect.
           </div>
@@ -702,7 +606,6 @@
           <div class="metric-row">
             <div class="metric-label">
               Financial savings
-              <span class="badge badge-lagging">LAGGING</span>
             </div>
             <div>
               <span class="metric-value">£7m</span>
@@ -712,7 +615,6 @@
           <div class="metric-row">
             <div class="metric-label">
               User satisfaction
-              <span class="badge badge-lagging">LAGGING</span>
             </div>
             <div>
               <span class="metric-value">72%</span>
@@ -722,7 +624,6 @@
           <div class="metric-row">
             <div class="metric-label">
               Efficiency
-              <span class="badge badge-lagging">LAGGING</span>
             </div>
             <div>
               <span class="metric-value-small">Medium improving</span>
@@ -732,7 +633,6 @@
           <div class="metric-row">
             <div class="metric-label">
               Time savings
-              <span class="badge badge-lagging">LAGGING</span>
             </div>
             <div>
               <span class="metric-value-small">1,200 hours per year</span>
@@ -742,7 +642,6 @@
           <div class="metric-row">
             <div class="metric-label">
               Public good
-              <span class="badge badge-lagging">LAGGING</span>
             </div>
             <div>
               <span class="metric-value-small">Strong cross government contribution</span>
@@ -751,6 +650,10 @@
           </div>
 
           <div class="impact-item-text" style="margin-top:10px;">
+            As foundations strengthen and maturity grows, outcomes should shift from isolated savings and anecdotal success to sustained savings, measurable improvements in user experience, system level efficiency and continuous public value.
+          </div>
+
+          <div class="impact-item-text" style="margin-top:8px;">
             <strong>Benefits horizon:</strong> Most movement in outcomes and impact is expected in years 3 and 4 as foundations and maturity strengthen.
           </div>
 
@@ -871,7 +774,7 @@
 
           <rect x="520" y="20" width="160" height="60" fill="#ffffff" stroke="#9ca3af" rx="6"/>
           <text x="600" y="50" text-anchor="middle" font-size="13" font-weight="600">Level 3</text>
-          <text x="600" y="68" text-anchor="middle" font-size="12" fill="#555">Outcomes &amp; impact</text>
+          <text x="600" y="68" text-anchor="middle" font-size="12" fill="#555">Outcomes and impact</text>
 
           <!-- Forward arrows -->
           <line x1="200" y1="50" x2="280" y2="50" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -935,7 +838,7 @@
             Level 2 maturity <span class="badge badge-signal">SIGNAL</span>
           </div>
           <p style="margin:0; line-height:1.5;">
-            How data is used in practice across uses, data, leadership, culture, tools and skills. These follow the Government Data Maturity Framework (2023) and evolve more slowly over time.
+            How data is used in practice across uses, data, leadership, culture, tools and skills. These follow the Government Data Maturity Framework and evolve more slowly over time.
           </p>
         </div>
 
@@ -1011,12 +914,12 @@
             <td class="maturity-notes">Senior leaders value data but sponsorship and focus varies by area.</td>
           </tr>
           <tr>
-            <td>Culture <span class="badge badge-lagging">LAGGING</span></td>
+            <td>Culture <span class="badge badge-signal">SIGNAL</span></td>
             <td>2 of 5</td>
             <td class="maturity-notes">Growing openness to sharing data but some silos and risk aversion remain.</td>
           </tr>
           <tr>
-            <td>Tools <span class="badge badge-leading">LEADING</span></td>
+            <td>Tools <span class="badge badge-signal">SIGNAL</span></td>
             <td>2 of 5</td>
             <td class="maturity-notes">Mix of modern tools and legacy systems with limited self service analytics.</td>
           </tr>
@@ -1079,19 +982,19 @@
       <div class="card-subtitle">How to interpret this dashboard responsibly.</div>
 
       <p style="font-size:13px; color:#444; line-height:1.6; margin-top:6px;">
-        This model simplifies complex systems and is intended for structured strategic discussion, learning and planning. 
+        This model simplifies complex systems and is intended for structured strategic discussion, learning and planning.
         It is not designed for audit, formal assurance or performance rating.
       </p>
 
       <p style="font-size:13px; color:#444; line-height:1.6;">
-        Outcomes and impact will always lag behind foundations and maturity. Desired outcomes and impact should inform future foundation design, 
+        Outcomes and impact will always lag behind foundations and maturity. Desired outcomes and impact should inform future foundation design,
         and the dashboard should be read alongside detailed evidence and professional judgement.
       </p>
 
       <p style="font-size:12px; color:#6b7280; line-height:1.6; margin-top:10px;">
-        This model builds on concepts originally presented by Bandhu Das at DAMA UK and Big Data LDN 2023. 
-        <a href="https://www.brighttalk.com/webcast/12405/602410" 
-           target="_blank" 
+        This model builds on concepts originally presented by Bandhu Das at DAMA UK and Big Data LDN 2023.
+        <a href="https://www.brighttalk.com/webcast/12405/602410"
+           target="_blank"
            style="color:#1d70b8; text-decoration:underline;">
           Watch the talk here.
         </a>
@@ -1105,7 +1008,7 @@
     </footer>
   </div>
 
-  <!-- PAGE 3: METRIC CATALOGUE AND THEORY OF CHANGE -->
+  <!-- PAGE 3: METRIC CATALOGUE AND THEORY OF CHANGE (BULLET VERSION) -->
   <div class="page page-break">
 
     <div class="hero">
@@ -1120,446 +1023,145 @@
       </div>
     </div>
 
-    <!-- CARD 1: Full metric catalogue -->
+    <!-- CARD 1: Metric catalogue (bullets) -->
     <div class="card" style="border-top:3px solid #0ea5e9;">
       <div class="card-title">Metric catalogue across the three levels</div>
       <div class="card-subtitle">
         Examples of indicators that can be used to measure Level 1 foundations, Level 2 maturity and Level 3 outcomes and impact.
       </div>
 
-      <div class="impact-block-title">Level 1 foundations - example metrics</div>
-      <table class="maturity-table">
-        <thead>
-          <tr>
-            <th>Metric</th>
-            <th>Pillar</th>
-            <th>Indicator type</th>
-            <th>What it measures</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Strategy alignment score</td>
-            <td>Strategy</td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-            <td class="maturity-notes">
-              Extent to which cross cutting data priorities and a single roadmap are agreed, understood and used to shape portfolios.
-            </td>
-          </tr>
-          <tr>
-            <td>Shared leadership coverage</td>
-            <td>Shared leadership</td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-            <td class="maturity-notes">
-              Percentage of ALBs and directorates with named data owners, senior sponsors and clear decision rights.
-            </td>
-          </tr>
-          <tr>
-            <td>Common foundations adoption</td>
-            <td>Foundation</td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-            <td class="maturity-notes">
-              Proportion of priority datasets using agreed standards, reference data, shared platforms and governance controls.
-            </td>
-          </tr>
-          <tr>
-            <td>Community strength index</td>
-            <td>Community</td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-            <td class="maturity-notes">
-              Breadth, activity and resilience of data and analytics communities of practice, including cross organisational groups.
-            </td>
-          </tr>
-          <tr>
-            <td>Engagement demand and support</td>
-            <td>Engagement</td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-            <td class="maturity-notes">
-              Volume and mix of requests for data support and proportion of users onboarded through structured journeys.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="impact-block-title">Level 1 foundations (Leading indicators)</div>
+      <ul style="font-size:13px; color:#444; line-height:1.6; padding-left:18px;">
+        <li><strong>Strategy</strong>
+          <ul style="margin-top:4px; padding-left:18px;">
+            <li>Strategy alignment score.</li>
+            <li>Adoption of cross cutting priorities.</li>
+            <li>Use of the roadmap to shape portfolio decisions.</li>
+          </ul>
+        </li>
+        <li><strong>Shared leadership</strong>
+          <ul style="margin-top:4px; padding-left:18px;">
+            <li>Coverage of data owners and sponsors across ALBs and directorates.</li>
+            <li>Decision rights and stewardship forums established.</li>
+            <li>Consistency of leadership engagement with data priorities.</li>
+          </ul>
+        </li>
+        <li><strong>Foundation</strong> (platforms, standards, reference data)
+          <ul style="margin-top:4px; padding-left:18px;">
+            <li>Priority datasets using agreed standards.</li>
+            <li>Metadata completeness and catalogue coverage.</li>
+            <li>Use of shared reference data and reusable pipelines.</li>
+          </ul>
+        </li>
+        <li><strong>Community</strong>
+          <ul style="margin-top:4px; padding-left:18px;">
+            <li>Activity across communities of practice.</li>
+            <li>Participation in peer learning and events.</li>
+            <li>Number of reusable assets created and shared.</li>
+          </ul>
+        </li>
+        <li><strong>Engagement</strong>
+          <ul style="margin-top:4px; padding-left:18px;">
+            <li>Volume of user requests and support.</li>
+            <li>User onboarding throughput.</li>
+            <li>Adoption of guidance, clinics and training offers.</li>
+          </ul>
+        </li>
+      </ul>
 
-      <div class="impact-block-title" style="margin-top:14px;">Level 1 accelerator and delivery metrics</div>
-      <table class="maturity-table">
-        <thead>
-          <tr>
-            <th>Deliverable</th>
-            <th>Primary metric</th>
-            <th>Secondary metrics</th>
-            <th>Indicator type</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>MVP Enterprise Data Catalogue</td>
-            <td>Percent mission critical datasets covered</td>
-            <td class="maturity-notes">
-              Usage by analysts, number of ALBs contributing, metadata completeness rating.
-            </td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-          </tr>
-          <tr>
-            <td>Data ownership rollout</td>
-            <td>Domains onboarded to ownership model</td>
-            <td class="maturity-notes">
-              Number of owners trained, stewardship forums held, coverage of agreed priority domains.
-            </td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-          </tr>
-          <tr>
-            <td>Data festival and showcase</td>
-            <td>Attendance and participation</td>
-            <td class="maturity-notes">
-              Cross government representation, number of case studies shared, follow up requests for support.
-            </td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="impact-block-title">Level 1 accelerator delivery (Leading indicators)</div>
+      <ul style="font-size:13px; color:#444; line-height:1.6; padding-left:18px;">
+        <li>Percent mission critical datasets catalogued.</li>
+        <li>Domains onboarded to ownership model.</li>
+        <li>Attendance and participation at data festivals or showcases.</li>
+        <li>Reuse of shared tools, dashboards or templates.</li>
+        <li>Number of ALBs contributing to shared data assets.</li>
+      </ul>
 
-      <div class="impact-block-title" style="margin-top:14px;">Level 2 maturity - example metrics by theme</div>
-      <table class="maturity-table">
-        <thead>
-          <tr>
-            <th>Theme</th>
-            <th>Core metric</th>
-            <th>Complementary metric</th>
-            <th>Indicator type</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Uses</td>
-            <td>Proportion of priority decisions supported by structured evidence</td>
-            <td class="maturity-notes">
-              Number of recurrent decision forums with regular data packs.
-            </td>
-            <td><span class="badge badge-signal">SIGNAL</span></td>
-          </tr>
-          <tr>
-            <td>Data</td>
-            <td>Coverage of priority datasets with owners and quality thresholds</td>
-            <td class="maturity-notes">
-              Share of key indicators using agreed reference data and standards.
-            </td>
-            <td><span class="badge badge-signal">SIGNAL</span></td>
-          </tr>
-          <tr>
-            <td>Leadership</td>
-            <td>Use of structured data packs in leadership forums</td>
-            <td class="maturity-notes">
-              Proportion of leadership discussions that explicitly reference data driven trade offs.
-            </td>
-            <td><span class="badge badge-leading">LEADING</span></td>
-          </tr>
-          <tr>
-            <td>Culture</td>
-            <td>Staff reporting confidence using data in their role</td>
-            <td class="maturity-notes">
-              Openness to sharing and reuse, measured through survey questions or pulse checks.
-            </td>
-            <td><span class="badge badge-signal">SIGNAL</span></td>
-          </tr>
-          <tr>
-            <td>Tools</td>
-            <td>Use of approved self service analytics platforms</td>
-            <td class="maturity-notes">
-              Number of reusable dashboards and tools in active use across ALBs and directorates.
-            </td>
-            <td><span class="badge badge-signal">SIGNAL</span></td>
-          </tr>
-          <tr>
-            <td>Skills</td>
-            <td>Completion of data and AI literacy pathways outside specialist teams</td>
-            <td class="maturity-notes">
-              Participation in communities of practice and peer learning events.
-            </td>
-            <td><span class="badge badge-signal">SIGNAL</span></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="impact-block-title">Level 2 maturity (Signal indicators)</div>
+      <ul style="font-size:13px; color:#444; line-height:1.6; padding-left:18px;">
+        <li><strong>Uses</strong>: proportion of priority decisions supported by structured evidence, and number of recurring decision forums with standardised packs.</li>
+        <li><strong>Data</strong>: coverage of priority datasets with owners and quality thresholds, and share of key indicators using agreed reference data.</li>
+        <li><strong>Leadership</strong>: use of structured data packs in leadership forums, and frequency of evidence based trade offs in governance.</li>
+        <li><strong>Culture</strong>: staff confidence using data in their role, and openness to sharing and reuse measured by surveys or pulse checks.</li>
+        <li><strong>Tools</strong>: use of approved self service analytics platforms, and number of shared dashboards and tools in active use.</li>
+        <li><strong>Skills</strong>: completion of data and AI literacy pathways beyond specialist teams, and participation in communities of practice.</li>
+      </ul>
 
-      <div class="impact-block-title" style="margin-top:14px;">Level 3 outcomes and impact - example metrics</div>
-      <table class="maturity-table">
-        <thead>
-          <tr>
-            <th>Outcome or impact metric</th>
-            <th>Indicator type</th>
-            <th>What it reflects</th>
-            <th>Illustrative value</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Financial savings (impact)</td>
-            <td><span class="badge badge-lagging">LAGGING</span></td>
-            <td class="maturity-notes">
-              Verified savings from reuse, reduced duplication, better targeting and avoided costs.
-            </td>
-            <td class="maturity-notes">
-              £7m recorded against a plan of £10m.
-            </td>
-          </tr>
-          <tr>
-            <td>User satisfaction (outcome)</td>
-            <td><span class="badge badge-lagging">LAGGING</span></td>
-            <td class="maturity-notes">
-              Perception of usefulness, timeliness and usability of data, dashboards and tools.
-            </td>
-            <td class="maturity-notes">
-              72 percent satisfied against a plan of 75 percent.
-            </td>
-          </tr>
-          <tr>
-            <td>Efficiency gains (outcome)</td>
-            <td><span class="badge badge-lagging">LAGGING</span></td>
-            <td class="maturity-notes">
-              Productivity improvements from streamlined data flows and common tools.
-            </td>
-            <td class="maturity-notes">
-              Qualitative rating: Medium improving, target High.
-            </td>
-          </tr>
-          <tr>
-            <td>Time savings (outcome and impact)</td>
-            <td><span class="badge badge-lagging">LAGGING</span></td>
-            <td class="maturity-notes">
-              Staff time saved through reuse of data assets, standardised pipelines and shared platforms.
-            </td>
-            <td class="maturity-notes">
-              1,200 hours per year against a plan of 1,000 hours.
-            </td>
-          </tr>
-          <tr>
-            <td>Public good impact (impact)</td>
-            <td><span class="badge badge-lagging">LAGGING</span></td>
-            <td class="maturity-notes">
-              Contribution to wider outcomes, transparency and cross government reuse.
-            </td>
-            <td class="maturity-notes">
-              Strong cross government contribution, for example through shared flood models or land data assets.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="impact-block-title">Level 3 outcomes and impact (Lagging indicators)</div>
+      <ul style="font-size:13px; color:#444; line-height:1.6; padding-left:18px;">
+        <li><strong>Financial savings</strong>: verified savings from reuse, reduced duplication and better targeting.</li>
+        <li><strong>User satisfaction</strong>: measured satisfaction with data, dashboards and tools, and uptake of shared analytical products.</li>
+        <li><strong>Efficiency gains</strong>: productivity improvements in core processes and reduction in manual effort or rework.</li>
+        <li><strong>Time savings</strong>: staff time saved through streamlined pipelines and faster analysis or onboarding.</li>
+        <li><strong>Public good impact</strong>: cross government contributions, improved policy insight, transparency and visible citizen or stakeholder benefits.</li>
+      </ul>
 
       <p class="maturity-notes" style="margin-top:8px;">
-        These examples are indicative and intended to support local design of metrics. They show how leading, signal and lagging
-        indicators can be combined to tell a coherent story from foundations to outcomes and impact, rather than prescribing a fixed catalogue.
+        These examples are indicative and intended to support local design of metrics. They show how leading, signal and lagging indicators can be combined to tell a coherent story from foundations to outcomes and impact, rather than prescribing a fixed catalogue.
       </p>
 
       <span class="tag" style="margin-top:10px; display:inline-block;">METRIC CATALOGUE</span>
     </div>
 
-    <!-- CARD 2: Theory of change by foundation - visual lanes -->
+    <!-- CARD 2: Theory of change (bullets) -->
     <div class="card" style="border-top:3px solid #a855f7;">
-      <div class="card-title">Theory of Change - From foundational inputs to public impact</div>
+      <div class="card-title">Theory of change - From foundational inputs to public impact</div>
       <div class="card-subtitle">
-         A simple start to finish story that links data foundations to real world impact.
+        A plain language story that links data foundations to real world impact.
       </div>
 
-        A theory of change is a plain language story about cause and effect. 
-        It explains how early work on data foundations lead to 
-        better decisions and public value. This model uses four theory of change stages: inputs, outputs, outcomes, and impact.
+      <p style="font-size:13px; color:#444; line-height:1.6; margin-top:6px;">
+        A theory of change explains how early work on data foundations leads to better decisions and public value. This model uses four stages: inputs, outputs, outcomes and impact.
       </p>
 
-      <div style="margin-top:8px; background:#f9fafb; border:1px solid #e5e7eb; padding:10px 12px; border-radius:8px; font-size:12px; color:#444;">
-        <p style="margin:0 0 6px 0;">
-          These foundations in this example are early conditions shaped by data leaders and teams. Examples will vary by organisational context,
-          maturity stage and constraints, but typically involve shifting from:
-        </p>
-        <ul style="margin:0; padding-left:18px; line-height:1.6;">
-          <li><strong>Strategy</strong> - isolated priorities and disconnected efforts to shared direction and a small set of cross cutting data priorities.</li>
-          <li><strong>Leadership</strong> - "their data problem" to shared ownership, shared accountability and shared decision making.</li>
-          <li><strong>Foundation</strong> - fragmented fixes and inconsistent practices to common policies, platforms and standards</li>
-          <li><strong>Communities</strong> - pockets of innovation to shared practice and reusable capabilities.</li>
-          <li><strong>Engagement</strong> - ad hoc conversations to ongoing dialogue across functions and organisations.</li>
-        </ul>
-      </div>
+      <div class="impact-block-title">Inputs - What you invest and set up</div>
+      <ul style="font-size:13px; color:#444; line-height:1.6; padding-left:18px;">
+        <li>Time from leaders, analysts, communities and partners.</li>
+        <li>Strategy workshops and prioritisation sessions.</li>
+        <li>Governance forums, decision rights and ownership roles.</li>
+        <li>Investment in platforms, standards, metadata and pipelines.</li>
+        <li>User research, onboarding journeys, training and communication.</li>
+        <li>Support for communities of practice and reusable patterns.</li>
+      </ul>
 
-      <!-- Stage header with small arrows -->
-      <div class="toc-lane-header toc-lane-grid" style="margin-top:10px;">
-        <div></div>
-        <div class="toc-lane-header-stage">
-          <span class="toc-lane-pill">Inputs</span>
-          <span>What you put in</span>
-        </div>
-        <div class="toc-lane-header-stage">
-          <span class="toc-lane-pill">Outputs</span>
-          <span>What you build</span>
-        </div>
-        <div class="toc-lane-header-stage">
-          <span class="toc-lane-pill">Outcomes</span>
-          <span>Behaviour change</span>
-        </div>
-        <div class="toc-lane-header-stage">
-          <span class="toc-lane-pill">Impact</span>
-          <span>Public value</span>
-        </div>
-      </div>
+      <div class="impact-block-title">Outputs - What you build</div>
+      <ul style="font-size:13px; color:#444; line-height:1.6; padding-left:18px;">
+        <li>Shared roadmap and clear priority list.</li>
+        <li>Aligned business cases and portfolio decisions.</li>
+        <li>Data owners, sponsors and stewardship structures.</li>
+        <li>Common data catalogues, reference data, standards and patterns.</li>
+        <li>Communities of practice, reusable tools, notebooks and templates.</li>
+        <li>Clear front door, support journeys, guidance and communication.</li>
+      </ul>
 
-      <div class="toc-lane-arrow-row">
-        <div></div>
-        <div>Inputs flow into</div>
-        <div>Outputs which enable</div>
-        <div>Outcomes that lead to</div>
-        <div>Impact</div>
-      </div>
+      <div class="impact-block-title">Outcomes - How the system behaves</div>
+      <ul style="font-size:13px; color:#444; line-height:1.6; padding-left:18px;">
+        <li>Funding and prioritisation follow the roadmap.</li>
+        <li>Faster and more consistent decisions about data.</li>
+        <li>Less duplication across projects and ALBs.</li>
+        <li>More reliable data flows, reusable assets and consistent indicators.</li>
+        <li>Higher demand for evidence and better questions from teams.</li>
+        <li>More confident use of data in everyday work.</li>
+      </ul>
 
-      <!-- Swimlanes by foundation -->
-      <div class="toc-lane-grid">
-
-        <!-- Strategy row -->
-        <div class="toc-foundation-name">Strategy</div>
-        <div class="toc-stage toc-stage-input">
-          <div class="toc-stage-label">Inputs</div>
-          <div class="toc-stage-text">
-            Time from senior leaders, agreed priorities, strategy workshops, portfolio reviews and roadmapping effort.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-output">
-          <div class="toc-stage-label">Outputs</div>
-          <div class="toc-stage-text">
-            Cross cutting data roadmap, clear priority list, aligned business cases and investment options.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-outcome">
-          <div class="toc-stage-label">Outcomes</div>
-          <div class="toc-stage-text">
-            Funding and prioritisation follow the roadmap, less duplication in projects, clearer trade offs.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-impact">
-          <div class="toc-stage-label">Impact</div>
-          <div class="toc-stage-text">
-            Stronger link between data spend and visible value, better targeting of scarce resources, clearer case for future investment.
-          </div>
-        </div>
-
-        <!-- Shared leadership row -->
-        <div class="toc-foundation-name">Shared leadership</div>
-        <div class="toc-stage toc-stage-input">
-          <div class="toc-stage-label">Inputs</div>
-          <div class="toc-stage-text">
-            Agreement to create owner and sponsor roles, governance forums, time to define decision rights and responsibilities.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-output">
-          <div class="toc-stage-label">Outputs</div>
-          <div class="toc-stage-text">
-            Named data owners and sponsors, ownership maps, terms of reference for boards and stewardship forums.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-outcome">
-          <div class="toc-stage-label">Outcomes</div>
-          <div class="toc-stage-text">
-            Faster and more consistent decisions about data, fewer escalations, clearer accountability for quality and reuse.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-impact">
-          <div class="toc-stage-label">Impact</div>
-          <div class="toc-stage-text">
-            Reduced risk from unclear ownership, better compliance, more confident use of shared data across organisations.
-          </div>
-        </div>
-
-        <!-- Foundation row -->
-        <div class="toc-foundation-name">Foundation</div>
-        <div class="toc-stage toc-stage-input">
-          <div class="toc-stage-label">Inputs</div>
-          <div class="toc-stage-text">
-            Investment in platforms, metadata, standards, reference data, security controls and integration capability.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-output">
-          <div class="toc-stage-label">Outputs</div>
-          <div class="toc-stage-text">
-            Common data catalogues, shared reference data, standard pipelines and agreed technical patterns.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-outcome">
-          <div class="toc-stage-label">Outcomes</div>
-          <div class="toc-stage-text">
-            Less manual wrangling, more reliable data flows, easier reuse of assets, more consistent indicators across services.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-impact">
-          <div class="toc-stage-label">Impact</div>
-          <div class="toc-stage-text">
-            Financial savings from reuse and decommissioning, better risk insight, more robust evidence for major decisions.
-          </div>
-        </div>
-
-        <!-- Community row -->
-        <div class="toc-foundation-name">Community</div>
-        <div class="toc-stage toc-stage-input">
-          <div class="toc-stage-label">Inputs</div>
-          <div class="toc-stage-text">
-            Time for community leads, support for events, collaboration tools and recognition of peer to peer contribution.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-output">
-          <div class="toc-stage-label">Outputs</div>
-          <div class="toc-stage-text">
-            Communities of practice, show and tell sessions, shared patterns, reusable notebooks, code and templates.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-outcome">
-          <div class="toc-stage-label">Outcomes</div>
-          <div class="toc-stage-text">
-            Faster problem solving through peer networks, more consistent practice, quicker spread of good ideas across ALBs.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-impact">
-          <div class="toc-stage-label">Impact</div>
-          <div class="toc-stage-text">
-            Higher quality analysis, reduced duplication across teams, stronger collective capability in the federated system.
-          </div>
-        </div>
-
-        <!-- Engagement row -->
-        <div class="toc-foundation-name">Engagement</div>
-        <div class="toc-stage toc-stage-input">
-          <div class="toc-stage-label">Inputs</div>
-          <div class="toc-stage-text">
-            Communications effort, user research, onboarding journeys, help content and support channels for non specialist users.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-output">
-          <div class="toc-stage-label">Outputs</div>
-          <div class="toc-stage-text">
-            Clear front door for data support, guidance pages, clinics, training offers and tailored communication campaigns.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-outcome">
-          <div class="toc-stage-label">Outcomes</div>
-          <div class="toc-stage-text">
-            More teams using shared data services, increased demand for evidence, better questions and clearer feedback on gaps.
-          </div>
-        </div>
-        <div class="toc-stage toc-stage-impact">
-          <div class="toc-stage-label">Impact</div>
-          <div class="toc-stage-text">
-            More decisions that are visibly evidence informed, improved service outcomes, stronger trust in how data is used.
-          </div>
-        </div>
-
-      </div>
+      <div class="impact-block-title">Impact - Public value that emerges later</div>
+      <ul style="font-size:13px; color:#444; line-height:1.6; padding-left:18px;">
+        <li>Sustained financial savings and avoided costs.</li>
+        <li>Clearer trade offs and better targeted investments.</li>
+        <li>Higher quality analysis and more robust evidence.</li>
+        <li>Improved service outcomes, efficiency and transparency.</li>
+        <li>Stronger trust and cross government contribution.</li>
+        <li>Continuous value creation from shared assets and insight.</li>
+      </ul>
 
       <p style="font-size:13px; color:#444; line-height:1.6; margin-top:8px;">
-       You can pick any foundation in the left column and follow the coloured boxes across the page to 
-  see how effort on data strategy, leadership, foundations, community and engagement connects to outcomes and impact.
-  Most inputs and outputs are best measured using leading indicators, many outcomes with signal indicators,
-  and impacts with lagging indicators, as shown in the metric catalogue.
+        Most inputs and outputs are best measured using leading indicators, many outcomes with signal indicators, and impacts with lagging indicators, as shown in the metric catalogue.
       </p>
-    
-<p style="font-size:13px; color:#444; line-height:1.6; margin-top:6px;">
-  <strong>Note:</strong> The diagram shows linear relationships for clarity, but in practice these shifts are 
-  non linear and move at different paces. Many outputs depend on multiple foundations, and 
-  outcomes and impact often emerge unevenly across a federated organisation.
-</p>
+
+      <p style="font-size:13px; color:#444; line-height:1.6; margin-top:6px;">
+        Note: The theory of change is presented linearly for clarity, but in practice these shifts are non linear and move at different paces across a federated organisation.
+      </p>
 
       <span class="tag" style="margin-top:10px; display:inline-block;">THEORY OF CHANGE</span>
     </div>
@@ -1571,4 +1173,3 @@
 
 </body>
 </html>
-
