@@ -61,18 +61,46 @@ Examples vary by organisation and context, but typically involve shifting from:
 
 ---
 
-### Level 2. Enable maturity  
-System capability that emerges when Level 1 foundations begin to work together.
+## 2. Level 2. System maturity
 
-This follows the **Government Data Maturity Framework (2023)** with ratings from  
-**Level 1 (Beginning)** to **Level 5 (Mastering)** across six themes:
+Level 2 describes how the organisation behaves when Level 1 foundations begin to take effect.  
+It uses the six themes from the Data Maturity Assessment for Government (2023).
 
+### Themes
 - Uses  
 - Data  
 - Leadership  
 - Culture  
 - Tools  
 - Skills  
+
+### How Level 2 shifts as Level 1 begins to work
+
+- **Uses**  
+  From data used mainly for reactive reporting  
+  to data used proactively to inform operational and strategic decisions.
+
+- **Data**  
+  From siloed, inconsistent and hard to combine datasets  
+  to coherent, reusable and well governed data assets with interoperability.
+
+- **Leadership**  
+  From leaders viewing data issues as technical or administrative  
+  to leaders actively championing data, setting expectations and investing in capability.
+
+- **Culture**  
+  From low confidence and sporadic use of data  
+  to a culture where data is part of everyday decision making and shared responsibility.
+
+- **Tools**  
+  From fragmented tools and workaround-heavy environments  
+  to integrated, discoverable and fit-for-purpose tools that support self service and reuse.
+
+- **Skills**  
+  From pockets of expertise concentrated in specialist teams  
+  to widespread data literacy and continuous capability development across roles.
+
+These shifts describe the system response that emerges when Level 1 enablers begin to operate effectively.
 
 ---
 
