@@ -50,11 +50,11 @@ This creates a clean chain of reasoning:
 >
 > This dashboard focuses on the **direct outcomes and impact** of organisational data strategy work.  
 > It is **not** a data valuation framework and does not assess wider social, environmental or economic value.  
-> It is also **not designed for sector-wide or national data strategies**, where incentives, scale and value mechanisms differ significantly.
+> It is also **not designed for sector wide or national data strategies**, where incentives, scale and value mechanisms differ significantly.
 
 > **Regulatory obligations vs strategic value:**  
 > Many teams already manage data well for compliance, audit and legal requirements — but **compliance is not the same as value**.  
-> Compliance keeps data safe and well-governed; strategy ensures data can be reused, connected and translated into outcomes and impact.
+> Compliance keeps data safe; strategy ensures data can be reused, connected and translated into outcomes and impact.
 
 
 ## 2. The three levels at a glance
