@@ -239,7 +239,7 @@ If you reuse it, you do not need to credit the source, but a short note back is 
 
 ## 12. Creator
 
-ValueLine is created by **Bandhu P. Das**, public sector data leader, qualified accountant and Imperial AI Policy Fellow (2025).
+ValueLine is created by **Bandhu P. Das**, public sector data leader, qualified accountant, DAMA UK Committee Member (2023-24) and Imperial AI Policy Fellow (2025).
 
 The model reflects a recurring challenge across organisations: data teams were doing the right work, but the **right measurements and right actions** were often unclear or inconsistent. After many conversations and reviewing 50+ strategies and business cases, a common pattern emerged.
 
