@@ -66,15 +66,7 @@ Examples vary by organisation and context, but typically involve shifting from:
 
 Level 2 describes how the organisation behaves when Level 1 foundations begin to take effect. It uses the six themes from the Data Maturity Assessment for Government (2023).
 
-### Themes
-- Uses  
-- Data  
-- Leadership  
-- Culture  
-- Tools  
-- Skills  
-
-### How Level 2 shifts as Level 1 begins to work
+### How Level 2 themes shifts as Level 1 begins to work
 
 - **Uses**  
   From data used mainly for reactive reporting  to data used proactively to inform operational and strategic decisions.
@@ -93,8 +85,6 @@ Level 2 describes how the organisation behaves when Level 1 foundations begin to
 
 - **Skills**  
   From pockets of expertise concentrated in specialist teams to widespread data literacy and continuous capability development across roles.
-
-These shifts describe the system response that emerges when Level 1 enablers begin to operate effectively.
 
 ---
 
