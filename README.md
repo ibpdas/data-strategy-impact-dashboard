@@ -40,12 +40,15 @@ This model brings clarity by structuring the story into three causal levels:
    Uses, data, leadership, culture, tools and skills develop toward a more capable and sustainable data ecosystem.
 
 3. **Level 3. Influence outcomes**  
-   Public value created when maturity is in place.  
+   Direct value created when maturity is in place.  
    Financial savings, user satisfaction, time savings, operational efficiency and public good contributions.
 
 This creates a clean chain of reasoning:  
 **Level 1 activities shape Level 2 maturity, which influences Level 3 outcomes.**
 
+> **Caveat – what this dashboard does and does not do**
+>
+> This dashboard focuses on measuring direct outcomes and impact from data strategy work, for example changes in behaviour, efficiency and service performance. It is not a full data valuation framework. Other mechanisms are needed to assess data commercialisation opportunities and to evaluate wider social, environmental, economic and public trust benefits from data. The dashboard should therefore be read alongside broader value, risk and benefits approaches used in your organisation.
 ---
 
 ## 2. The three levels at a glance
