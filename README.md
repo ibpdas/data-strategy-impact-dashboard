@@ -1,65 +1,71 @@
-# ValueLine: Data Strategy Impact Dashboard
+<p align="center">
+  <a href="https://ibpdas.github.io/data-strategy-impact-dashboard/" target="_blank">
+    <img src="https://img.shields.io/badge/Open%20Dashboard-Live%20Demo-blue?style=for-the-badge" alt="Dashboard Link">
+  </a>
+</p>
 
-[Open Dashboard](https://ibpdas.github.io/data-strategy-impact-dashboard/)
+<h1 align="center">ValueLine: Data Strategy Impact Dashboard</h1>
 
-## Visual overview
-   +--------------+        +--------------+        +--------------+
-   |   LEVEL 1    |        |   LEVEL 2    |        |   LEVEL 3    |
-   |  Enablers    | -----> |  Maturity    | -----> |   Outcomes   |
-   | Foundations  |        | Behaviours   |        |   Value      |
-   +--------------+        +--------------+        +--------------+
-
-   Enablers shape maturity.  
-   Maturity influences outcomes.  
-   Outcomes lag the most.
+<p align="center">
+  A three level causal model to help public sector data leaders explain, track and demonstrate 
+  data strategy impact in complex or federated organisations.
+</p>
 
 ---
 
-## Concept in 30 seconds
-
-The ValueLine model shows how data strategy activity and foundational enablers (Level 1) lead to system maturity (Level 2) and ultimately to public value outcomes (Level 3).
-
-It provides a clear causal chain, a repeatable dashboard format and a simple way to guide executive conversations. It helps shift the discussion from “where are the outcomes” to “are the enablers and system conditions in place”.
+> ### 📌 Concept in 30 seconds
+> This dashboard applies the **ValueLine: Data to Impact model**.  
+> It shows how data strategy activity and foundations (Level 1) lead to data maturity and system behaviour (Level 2) and ultimately public value outcomes (Level 3).  
+>  
+> It provides a clear causal chain, a repeatable dashboard format, and a better way to have executive conversations, prioritise effort and make choices in federated organisations. It facilitates shifting discussions away from “where are the outcomes” toward
+“are the enablers and system conditions in place.”
 
 ---
 
-## 1. What the model solves
+## 1. What the model solves  
 
-Public sector organisations often struggle to show how data activity leads to maturity and then to outcomes.  
-The challenge is attribution. Data teams shape the inputs, not the outcomes.
+Most public sector organisations find it difficult to show how data strategy activity leads to maturity and then to outcomes.  
 
-This model structures the story into three causal levels.
+The problem is attribution. Data teams usually control the inputs, but not the outcomes.
 
-### Level 1. Foundational enablers  
-Conditions shaped by data leaders and teams. Examples include strategy alignment, shared leadership, common platforms and standards, communities of practice and cross functional engagement.
+This model brings clarity by structuring the story into three causal levels:
 
-### Level 2. System maturity  
-How the organisation behaves when Level 1 foundations begin to take effect.  
-Assessed using the Government Data Maturity Framework.
+1. **Level 1. Build the foundational enablers**  
+   Conditions that data leaders and teams directly control.  
+   These are co-designed and contextual. This example includes strategy alignment, shared leadership, common foundations, grassroots community and cross-functional engagement.
 
-### Level 3. Outcomes  
-Public value created when maturity is in place.  
-Includes financial savings, user satisfaction, time savings, efficiency and wider public good.
+2. **Level 2. Enable maturity**  
+   How the wider system behaves when Level 1 is working.  
+   Uses, data, leadership, culture, tools and skills develop toward a more capable and sustainable data ecosystem.
 
-Level 1 shapes Level 2. Level 2 influences Level 3.
+3. **Level 3. Influence outcomes**  
+   Public value created when maturity is in place.  
+   Financial savings, user satisfaction, time savings, operational efficiency and public good contributions.
+
+This creates a clean chain of reasoning:  
+**Level 1 activities shape Level 2 maturity, which influences Level 3 outcomes.**
 
 ---
 
 ## 2. The three levels at a glance
 
-### Level 1. Foundational enablers
+### Level 1. Build the foundational enablers  
+Early conditions shaped by data leaders and teams.  
+Examples vary by organisation and context, but typically involve shifting from:
 
-Typical shifts include:
+- **Strategy** – isolated priorities and disconnected efforts → shared direction and a small set of cross-cutting data priorities  
+- **Leadership** – “their data problem” → shared ownership, shared accountability and shared decision-making  
+- **Foundation** – fragmented fixes and inconsistent practices → common platforms, common standards and common reference data  
+- **Communities** – pockets of innovation → shared practice and reusable capabilties 
+- **Engagement** – ad-hoc conversations → ongoing dialogue across functions and organisations  
 
-- Strategy: isolated priorities to shared direction  
-- Leadership: “their data problem” to shared accountability  
-- Foundation: fragmented fixes to common platforms and standards  
-- Communities: isolated innovation to shared practice  
-- Engagement: ad hoc conversations to ongoing dialogue  
+---
 
-### Level 2. System maturity
+### Level 2. Enable maturity  
+System capability that emerges when Level 1 foundations begin to work together.
 
-Six themes assessed from Level 1 (Beginning) to Level 5 (Mastering):
+This follows the **Government Data Maturity Framework (2023)** with ratings from  
+**Level 1 (Beginning)** to **Level 5 (Mastering)** across six themes:
 
 - Uses  
 - Data  
@@ -68,175 +74,149 @@ Six themes assessed from Level 1 (Beginning) to Level 5 (Mastering):
 - Tools  
 - Skills  
 
-### Level 3. Outcomes
+---
 
-Indicators influenced by Levels 1 and 2:
+### Level 3. Influence outcomes  
+Public value indicators influenced by Levels 1 and 2:
 
 - Financial savings  
+- User satisfaction  
 - Efficiency gains  
 - Time savings  
-- User satisfaction  
-- Public good impact  
+- Public good impact
 
 ---
 
-## 3. Leading, signal and lagging indicators
+## 3. Leading, signal and lagging indicators  
 
-To keep expectations realistic:
+Each metric is classified so expectations are realistic:
 
-- Leading indicators show early progress in foundations  
-- Signal indicators reflect system behaviour and maturity  
-- Lagging indicators measure outcomes and benefits  
+- **Leading**: Early signs that enablers are working (mainly Level 1)  
+- **Signal**: System response and behaviour change (mainly Level 2)  
+- **Lagging**: Measurable public value and benefits (mainly Level 3)  
+
+This helps avoid unrealistic pressure to show outcomes before foundations are in place.
 
 ---
 
-## 4. Executive decision box
+## 4. Executive decision box  
 
-A dedicated panel on Page 1 highlights:
+The dashboard includes an **Executive decision box** to the right of Page 1.
+
+This provides a dedicated space for leaders to see:
 
 - Top three asks  
-- Trade offs  
+- Key trade offs  
 - Dependencies  
-- Evidence confidence  
+- Confidence levels in the evidence  
 - Forward look priorities  
 
-This turns the dashboard into a decision tool.
+This translates data strategy into **concrete executive decisions and ownership**, instead of a generic performance report.
 
 ---
 
-## 5. Measurement methods
+## 5. Measurement methods  
 
-The Methodology page outlines practical evidence cycles:
+The Methodology page suggests practical measurement cycles, for example:
 
-- Monthly dashboards  
-- Quarterly leadership updates  
-- Annual maturity reviews  
-- Staff surveys  
-- Standards and policy adoption  
-- API and platform analytics  
+- Monthly performance reports  
+- Quarterly senior leadership updates  
+- Annual maturity review  
+- Annual staff survey  
+- Event and training participation  
+- Policy and Standards adoption rates
 - Dataset and model reuse  
-- Benefit tracking  
-- BCR and NPV analysis  
-- Counterfactual or experimental methods  
+- Open data and API analytics  
+- Verified cost and time savings using benefit trackers
+- Benefit Cost Ratio (BCR) and Net Present Value (NPV) analysis
+- Randomised controlled trials and counterfactuals 
+  
+These give a balanced picture of both **capability building** and **value creation**.
 
 ---
 
-## 6. Why the model works
+## 6. Why this three level model works  
 
-The model follows simple system principles:
+Behind the dashboard is a simple systems principle: **foundations shape maturity, and maturity shapes outcomes**.
 
-- Foundations move faster than maturity  
-- Maturity develops faster than outcomes  
-- Outcomes lag the most  
-- Maturity cannot exceed foundational strength  
-- Public value emerges from alignment  
-- Feedback loops refine future foundations  
+This approach works because:
+
+- foundations and outcomes move at different speeds  
+- system behaviour lags behind system investment  
+- maturity cannot exceed the strength of foundations  
+- outcomes cannot exceed the maturity level  
+- public value emerges from alignment, not random effort  
+- the system is iterative, not linear  
+- feedback from outcomes reshapes future foundations    
+
+These principles explain the structure of the dashboard and why it uses leading, signal and lagging indicators.
 
 ---
 
-## 7. How this model is used
+## 7. How this model is used  
 
-Teams use this model to:
+This framework helps public sector teams:
 
-- Explain data strategy impact  
-- Provide a consistent narrative for senior leaders  
-- Prioritise effort across Levels 1 and 2  
-- Compare directorates or ALBs  
-- Integrate strategy, finance, policy and governance  
+- Explain data strategy impact using a simple causal chain  
+- Engage senior leaders using a consistent, repeatable dashboard  
+- Identify where to invest effort next in Level 1 or Level 2  
+- Compare directorates or ALBs within federated departments  
 
-Used by:
+It is particularly useful for:
 
 - CDO and data leadership teams  
 - Portfolio, PMO and governance forums  
-- Strategy and policy partners  
-- Finance, benefits and performance leads  
+- Strategy, finance and policy partners  
+- Internal performance and benefits leads  
 
 ---
 
-## 8. Repository contents
+## 8. What this repository provides  
 
-- HTML dashboard (Dashboard and Methodology pages)  
-- Excel input template  
-- PowerPoint generator script  
-- Light architecture notes  
-- Synthetic datasets  
-- Optional Streamlit app  
-
----
-
-## 9. Status
-
-- Completed: HTML dashboard  
-- In progress: Excel template and PowerPoint generator  
-- Planned: Streamlit app  
+- Conceptual **HTML dashboard** (Page 1: Dashboard, Page 2: Methodology)  
+- **Excel input template** for metrics and narrative  
+- **PowerPoint generator** script for board packs  
+- Light **architecture documentation**  
+- Example **synthetic datasets**  
+- Optional **Streamlit app** for interactive exploration  
 
 ---
 
-## 10. Limitations
+## 9. Status  
 
-- All data is synthetic  
-- The dashboard is a facilitation tool, not a formal scorecard  
-- It is not an official benchmark or standard  
-- Decisions require local evidence and professional judgement  
-
----
-
-## 11. Tailoring the dashboard for different contexts
-
-This model is adaptable. Different audiences and organisations need different versions.
-
-### For senior executives  
-- Keep the view high level  
-- Emphasise the Executive Decision Box  
-- Use leading and lagging indicators  
-- Highlight risks, asks and trade offs  
-
-### For data leaders and PMO teams  
-- Expand Level 1 and Level 2 indicators  
-- Link metrics to roadmap milestones  
-- Include standards, platform adoption and reuse signals  
-
-### For federated directorates or ALBs  
-- Segment maturity by business area  
-- Show variation and adoption gaps  
-- Support local priorities  
-
-### For practitioners and communities  
-- Provide drill downs  
-- Add training, platform and local metrics  
-- Treat indicators as learning signals  
+- ✅ HTML conceptual dashboard  
+- 🟡 Excel template (MVP)  
+- 🟡 PowerPoint generator script (MVP)  
+- ⬜ Streamlit app (future)  
 
 ---
 
-### Tailoring by organisation type
+## 10. Limitations  
 
-- Central departments: focus on shared platforms and cross cutting shifts  
-- Federated groups or NDPBs: prioritise alignment and dependencies  
+- All data and examples are **synthetic**  
+- The dashboard is a **learning and facilitation tool**, not an official scorecard  
+- It is not a benchmark, standard or assurance framework  
+- Real decisions should still draw on your own evidence, governance and professional judgement  
 
----
-
-### Interpretation considerations
-
-- Attribution is approximate  
-- Evidence quality varies  
-- Maturity scores are directional  
-- Outcomes lag by years  
-- Measurement capability increases over time  
-- Some indicators will require adaptation  
+Please adapt this with care and make sure any real figures are checked and agreed locally.
 
 ---
 
-## 12. Contributing and reuse
+## 11. Contributing and reuse  
 
-You may fork, adapt or extend this model.  
-Attribution is optional but appreciated.
+You are welcome to:
+
+- Fork this and build your own version  
+- Open issues or pull requests with improvements  
+- Share alternative layouts or additional metrics to help other public sector teams  
+
+If you reuse it, you do not need to credit the source, but a short note back is always appreciated.
 
 ---
 
-## 13. Creator
+## 12. Creator
 
-Created by Bandhu P. Das, public sector data leader, qualified accountant and Imperial AI Policy Fellow 2025.  
-Former DAMA UK Committee Member (2023 to 2024).
+The ValueLine model is created by **Bandhu P. Das**, public sector data leader, qualified accountant, Imperial AI policy fellow 2025 and former DAMA UK committee member (2023 to 2024).
 
-DAMA UK Talk:  
+**DAMA UK Talk – “Unlocking the Value of Data: Lessons from Public Sector Data Business Cases”**  
 https://www.brighttalk.com/webcast/12405/602410
