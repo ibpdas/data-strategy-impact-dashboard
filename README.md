@@ -17,8 +17,8 @@
 > This dashboard applies the **ValueLine: Data to Impact model**.  
 > It shows how data strategy activity and foundations (Level 1) lead to data maturity and system behaviour (Level 2) and ultimately public value outcomes (Level 3).  
 >  
-> It provides a clear causal chain, a repeatable dashboard format, and a better way to have executive conversations, prioritise effort and make choices in federated organisations. I facilitates shifting discussions away from “where are the outcomes” toward
-“are the enablers and system conditions in place”
+> It provides a clear causal chain, a repeatable dashboard format, and a better way to have executive conversations, prioritise effort and make choices in federated organisations. It facilitates shifting discussions away from “where are the outcomes” toward
+“are the enablers and system conditions in place.”
 
 ---
 
@@ -83,7 +83,7 @@ Public value indicators influenced by Levels 1 and 2:
 - User satisfaction  
 - Efficiency gains  
 - Time savings  
-- Public good impact across government  
+- Public good impact
 
 ---
 
@@ -214,7 +214,7 @@ If you reuse it, you do not need to credit the source, but a short note back is 
 
 ---
 
-## 12. Author  
+## 12. Creator
 
 The ValueLine model is created by **Bandhu P. Das**, public sector data leader, qualified accountant, Imperial AI policy fellow 2025 and former DAMA UK committee member (2023 to 2024).
 
