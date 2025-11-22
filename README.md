@@ -66,23 +66,17 @@ Level 2 describes how the organisation behaves when Level 1 foundations begin to
 
 It uses the six themes from the Data Maturity Assessment for Government (2023).
 
-- **Uses**  
-  From data used mainly for reactive reporting  to data used proactively to inform operational and strategic decisions.
+- **Uses** - From data used mainly for reactive reporting  to data used proactively to inform operational and strategic decisions.
 
-- **Data**  
-  From siloed, inconsistent and hard to combine datasets  to coherent, reusable and well governed data assets with interoperability.
+- **Data** - From siloed, inconsistent and hard to combine datasets  to coherent, reusable and well governed data assets with interoperability.
 
-- **Leadership**  
-  From leaders viewing data issues as technical or administrative to leaders actively championing data, setting expectations and investing in capability.
+- **Leadership** - From leaders viewing data issues as technical or administrative to leaders actively championing data, setting expectations and investing in capability.
 
-- **Culture**  
-  From low confidence and sporadic use of data to a culture where data is part of everyday decision making and shared responsibility.
+- **Culture** - From low confidence and sporadic use of data to a culture where data is part of everyday decision making and shared responsibility.
 
-- **Tools**  
-  From fragmented tools and workaround heavy environments to integrated, discoverable and fit-for-purpose tools that support self service and reuse.
+- **Tools** - From fragmented tools and workaround heavy environments to integrated, discoverable and fit-for-purpose tools that support self service and reuse.
 
-- **Skills**  
-  From pockets of expertise concentrated in specialist teams to widespread data literacy and continuous capability development across roles.
+- **Skills** - From pockets of expertise concentrated in specialist teams to widespread data literacy and continuous capability development across roles.
 
 ### Level 3. Influence outcomes  
 Public value indicators influenced by Levels 1 and 2:
