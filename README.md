@@ -240,21 +240,21 @@ Attribution is optional but appreciated.
 
 ## 12. Motivation for ValueLine
 
-**ValueLine** grew out of my own experience leading data strategy work in complex, federated environments.  
+ValueLine grew out of my experience leading data strategy work in complex, federated environments.  
 
-Again and again I saw data teams doing the right work, but struggling to show progress because the right measurements and signals were missing.
+Again and again I saw dedicated teams doing the right work, but struggling to show progress because the signals and measurements were unclear.
 
-Across many conversations with colleagues and after reviewing more than 50 data strategies and business cases, the same pattern kept appearing:  
+Across many conversations with colleaguesand after reviewing more than 50 data strategies and business cases — the same pattern kept appearing:  
 
-> People were working hard, fixing the right problems and improving foundations, but the story of progress was hard to tell.  Measurements varied, expectations drifted, and value signals came too late
+> Strong foundational work was happening, but the story of progress was difficult to explain. Expectations drifted, value signals came too late and the connection between foundations, maturity and outcomes was often lost.
 
-I built **ValueLine** as a practical, repeatable tool to make that connection clearer.  
+I built ValueLine as a practical and repeatable way to make that connection clearer.  
 
-It reflects years of trial, mistakes, small breakthroughs and generous advice from others.  
+It reflects years of trial, mistakes, small breakthroughs and generous advice from others along the way.
 
 If it helps even a few teams focus on what matters and explain their impact with more clarity, it will have done its job.
 
-— Bandhu P. Das
+— **Bandhu P. Das**
 
 <p align="center">
   <a href="https://www.brighttalk.com/webcast/12405/602410" target="_blank">
