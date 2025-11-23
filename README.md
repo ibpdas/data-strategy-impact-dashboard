@@ -15,7 +15,9 @@ A three level causal model to help public sector data leaders explain, track, an
 > ### 📌 Concept in 30 seconds
 
 > ValueLine shows how foundational data work (Level 1) shapes maturity and system behaviour (Level 2) and ultimately drives public value outcomes (Level 3).  
+
 > It gives leaders a clear causal chain and a reusable dashboard to compare options, understand time horizons, and choose faster paths to value in federated environments.  
+
 > It helps shift conversations from *“why isn’t value here yet?”* to *“what conditions will unlock value next, and how do we sequence effort to get there?”*
 
 ---
