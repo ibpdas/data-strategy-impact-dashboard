@@ -152,7 +152,7 @@ This explains why different results move at different speeds.
 
 ## 4. Executive decision box
 
-**Executive Decision Box** in **ValueLine** dashboard translates insights from Levels 1, 2 and 3 into the specific actions leaders need to take.
+**ValueLine** dashboard's **Executive Decision Box** translates insights from Levels 1, 2 and 3 into the specific actions for leaders.
 
 It provides a focused view of:
 
@@ -164,9 +164,9 @@ It provides a focused view of:
 
 In federated organisations, this is essential because progress and value depend on decisions made across many teams, not just the data function.
 
-### What leaders can use it for  
+### Leaders can use it for  
 - deciding where to invest next
-- surfacing alignment gaps that need senior sponsorship  
+- managing alignment gaps that need senior sponsorship  
 - identifying what to stop, start or accelerate  
 - clarifying which dependencies block value  
 - judging where evidence is strong, weak or needs validation  
@@ -179,7 +179,7 @@ This shifts the dashboard from reporting to **decision-making**, ensuring leader
 
 **ValueLine** uses a **mixed method approach** because no single metric can capture how foundations, maturity and outcomes evolve over different time horizons.
 
-Each method contributes evidence to **Leading (Level 1), Signal (Level 2)** or **Lagging (Level 3)** indicators.
+Each method contributes evidence to Leading (Level 1), Signal (Level 2) or Lagging (Level 3) indicators.
 
 ### Quantitative methods  
 Structured, repeatable metrics that show patterns of behaviour and performance.
@@ -224,7 +224,7 @@ This works because:
 - outcomes cannot exceed maturity  
 - value emerges from alignment, not isolated effort  
 - progress is iterative, not linear  
-- no magic metric and mixed method evaluation for rounded storytelling 
+- no magic metric and mixed method evaluation for rounded view 
 
 These principles justify the structure of the dashboard and the use of leading, signal and lagging indicators.
 
