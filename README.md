@@ -37,14 +37,13 @@ Data teams often deliver essential foundational work, but leaders struggle to se
 
 <p>
   <strong>ValueLine makes that journey visible and faster.</strong>
-  It maps <strong>foundations &rarr; maturity &rarr; Outcomes</strong>
-  in a single, repeatable model so that leaders can see how today&apos;s fixes
-  <strong>accelerate the path to value</strong>.
+  It maps <strong>foundations &rarr; maturity &rarr; outcomes</strong>
+  in a single, repeatable model so that leaders can see how today&apos;s fixes accelerate the path to value.
 </p>
 
 <p>
-  It grew out of years of seeing talented teams do the right things but struggle to explain progress
-  in a way that lands with boards and finance teams.
+  It grew out of years of seeing talented data teams do the right things but struggle to explain progress
+  in a way that lands with boards and cross-functional peers.
 </p>
 
 <p><strong>ValueLine offers a practical way to:</strong></p>
