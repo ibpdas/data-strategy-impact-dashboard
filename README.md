@@ -49,25 +49,31 @@ It shifts conversations from _“Why is value slow?”_ to _“Which conditions 
 
 Public sector organisations often operate in federated, siloed or multi team environments.  
 
-In these settings, it becomes difficult to show how data strategy activity, often carried out by one team, leads to maturity or outcomes that rely on many others.
+In this environment, it becomes unclear how foundational data work leads to maturity or measurable outcomes.
 
 The underlying issue is **attribution**.  
 
 > Data teams create the *conditions* for value, but the outcomes depend on adoption, behaviour change, operational cycles and external policy or service pressures. As a result, progress is real but hard to demonstrate.
 
-**ValueLine** addresses this by breaking the journey into three causal levels:
+**ValueLine** solves this by separating the journey into three causal levels:
 
-- Level 1 — conditions that data teams co-design and shape  
-- Level 2 — system behaviours that emerge over time  
-- Level 3 — outcomes influenced once the system matures  
+- **Level 1 — conditions data teams co-design and shape**  
+  (strategy alignment, leadership, standards, tooling, communities)
 
-This structure helps leaders see:
+- **Level 2 — behaviours the system produces**  
+  (reuse, interoperability, confidence, culture, better decisions)
 
-- where value can genuinely appear quickly  
-- where longer system change is required  
-- which conditions and decisions accelerate the path to impact  
+- **Level 3 — outcomes influenced once maturity is in place**  
+  (savings, time reduction, improved services, public good impact)
 
-By separating conditions, maturity and outcomes, ValueLine provides a clearer way to explain progress, diagnose gaps and focus effort where it creates real leverage.
+This structure gives leaders a more honest and realistic view of progress by clarifying:
+
+- where value can be realised quickly  
+- where progress genuinely takes longer  
+- which decisions and conditions accelerate or block impact  
+
+By distinguishing conditions, maturity and outcomes, ValueLine makes progress visible, expectations realistic and strategic choices clearer.
+
 
 ### Caveat – scope and boundaries
 
