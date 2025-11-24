@@ -33,9 +33,12 @@
 
 ## 📌 Concept in 30 seconds
 
-**ValueLine** shows how foundational data work (Level 1) shapes maturity and system behaviour (Level 2), and ultimately drives public value outcomes and impact (Level 3).
+Data teams often deliver essential foundational work, but leaders struggle to see how that effort translates into maturity or measurable outcomes.  
+**ValueLine** makes that connection visible by mapping foundations → maturity → impact in a single, repeatable model.
 
-It gives leaders a clear causal chain and a reusable dashboard to compare options, understand time horizons and choose faster paths to value in federated environments.
+It grew out of years of seeing talented teams do the right things but struggle to tell a clear value story.  
+
+ValueLine exists to give them a practical way to explain progress, set realistic expectations and focus attention on what truly drives public value.
 
 It shifts conversations from _“Why is value slow?”_ to _“Which conditions and levers deliver value now, next and later?”_
 
