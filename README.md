@@ -33,29 +33,23 @@
 
 ## 📌 Concept in 30 seconds
 
-  Public sector leaders care about outcomes, but the path from data work to real impact is often unclear. 
+Public sector leaders care about outcomes, but the path from data work to real impact is often unclear.
 
-<p> **ValueLine** makes that line of sight visible by showing how foundational fixes → strengthen system maturity → and unlock organisational value.
-</p>
+**ValueLine** makes that line of sight visible by showing how foundational fixes → strengthen system maturity → unlock organisational value.
 
-<p>
-  It grew out of years of seeing talented data teams do the right things but struggle to explain progress
-  in a way that lands with boards and cross-functional peers.
-</p>
+It grew out of years of seeing talented data teams deliver meaningful work, yet struggle to explain progress in a way that resonates with boards and cross-functional peers.
 
-<p><strong>ValueLine offers a practical way to:</strong></p>
-<ul>
-  <li>Explain progress in plain language</li>
-  <li>Set realistic expectations for when value will show up</li>
-  <li>Focus attention on the conditions that accelerate the path to value</li>
-</ul>
+**ValueLine offers data teams a practical way to:**
 
-<p>
-  <em>
-    It shifts conversations from “Why is value so slow?” to
-    “Which conditions and decisions will deliver value now, next and later?”
-  </em>
-</p>
+- **focus attention on what truly drives organisational outcomes** 
+- **provide a plain English line of sight** from foundational work to maturity to impact for buy-in and support
+- **surface the key constraints, dependencies and trade offs** that accelerate or slow down the path to value  
+
+It shifts conversations from **"Why is value slow?”** to  
+**“What must change now, next and later to unlock value?”**
+
+  
+  
 
 ---
 
