@@ -50,9 +50,10 @@ It shifts conversations from **"Why is value slow?”** to **“What must change
 
 ## 1. What the model solves
 
-Most public sector organisations work in complex, federated environments. No single team controls the full data value chain, which makes it difficult to show how foundational work leads to maturity, behaviour change or public value.
+Most public sector organisations work in complex, federated environments.  
+No single team controls the full data value chain, which makes it difficult to show how foundational work leads to maturity, behaviour change or public value.
 
-Core challenges are:
+### Core challenges
 
 - unclear attribution  
 - competing priorities  
@@ -60,37 +61,41 @@ Core challenges are:
 
 Data teams create the conditions for value, but results depend on how the wider system adopts and uses those conditions.
 
-This creates a familiar tension - quick wins now vs strong foundations for later.
+This creates a familiar tension - quick wins now versus strong foundations for later. 
 
-### Why It Matters
+### Why it matter
 
 When value flows are not understood, organisations:
 
 - waste effort  
-- duplicate work  
 - misread progress  
 - lose opportunities for collaboration  
 - miss chances for real impact  
 
 A clearer view of the value journey helps leaders prioritise well, direct investment, and reduce wasted energy across the system.
 
-**ValueLine** solves these by breaking the journey into three causal levels. Each moves at a different pace and is influenced by different actors.
+### How ValueLine helps
 
-- **Level 1 — conditions data teams co-design and shape**  
-  (strategy alignment, leadership, standards, tooling, communities)
+ValueLine addresses these issues by breaking the journey into three causal levels.  
+Each level moves at a different pace and is influenced by different actors.
 
-- **Level 2 — behaviours the system produces**  
-  (reuse, interoperability, confidence, culture, better decisions)
+- **Level 1: Conditions data teams co-design and shape**  
+  strategy alignment, leadership, standards, tooling, communities
 
-- **Level 3 — outcomes influenced once maturity is in place**  
-  (savings, time reduction, improved services, public good impact)
+- **Level 2: Behaviours the system produces**  
+  reuse, interoperability, confidence, culture, better decisions
+
+- **Level 3: Outcomes influenced once maturity is in place**  
+  savings, time reduction, improved services, public good impact
+
+## What leaders gain
 
 This model gives leaders a more accurate and practical view of progress. It clarifies:
 
-- what will unlock value now, next and later
-- where meaningful progress is happening even when outcomes lag
-- which constraints, decisions and dependencies matter most
-- why strengthening foundational enablers is essential for sustainable impact
+- what will unlock value now, next and later  
+- where meaningful progress is happening even when outcomes lag  
+- which constraints, decisions and dependencies matter most  
+- why strengthening foundational enablers is essential for sustainable impact  
 
 ### Caveat – scope and boundaries
 
