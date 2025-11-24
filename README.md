@@ -53,7 +53,7 @@ In these settings, it becomes difficult to show how data strategy activity, ofte
 
 The underlying issue is **attribution**.  
 
-Data teams create the *conditions* for value, but the outcomes depend on adoption, behaviour change, operational cycles and external policy or service pressures. As a result, progress is real but hard to demonstrate.
+> Data teams create the *conditions* for value, but the outcomes depend on adoption, behaviour change, operational cycles and external policy or service pressures. As a result, progress is real but hard to demonstrate.
 
 **ValueLine** addresses this by breaking the journey into three causal levels:
 
@@ -144,7 +144,7 @@ This explains why different results move at different speeds.
 
 ## 4. Executive decision box
 
-The dashboard includes an **Executive decision box** to the right of Page 1.
+**ValueLine** dashboard includes an **Executive decision box** to the right of Page 1.
 
 It gives leaders a focused view of:
 
@@ -164,7 +164,7 @@ This turns data strategy into **specific executive actions**, not just a perform
 
 The labels (Leading, Signal, Lagging) show which part of the causal chain each method mainly informs.
 
-### Quantitative indicators 
+### Quantitative  
 - monthly performance reports (Lagging)
 - quarterly senior leadership updates (Signal)
 - validated cost and time savings (Lagging)
@@ -173,7 +173,7 @@ The labels (Leading, Signal, Lagging) show which part of the causal chain each m
 - API and open data analytics (Signal)
 - CO2 impacts from compute and storage (Lagging)
 
-### Qualitative indicators 
+### Qualitative 
 - staff surveys (Signal)
 - training and community participation (Leading)
 - user research and engagement logs (Signal)
@@ -280,8 +280,7 @@ Across many conversations with colleagues, and after reviewing more than fifty d
 > Strong foundational work was happening, but the story of progress was difficult to explain.  
 > Expectations drifted, value signals came too late, and the connection between foundations, maturity and outcomes was often lost.
 
-I built **ValueLine** as a practical and repeatable way to make that connection clearer.  
-It reflects trial and error, small breakthroughs and generous advice from others along the way.
+I built **ValueLine** as a practical and repeatable way to make that connection clearer. It reflects trial and error, small breakthroughs and generous advice from others along the way.
 
 If it helps even a few people and teams focus on what matters and explain their impact with more clarity, it will have done its job.
 
