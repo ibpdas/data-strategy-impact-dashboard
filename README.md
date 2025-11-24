@@ -187,15 +187,6 @@ It provides a focused view of:
 
 In federated organisations, this is essential because progress and value depend on decisions made across many teams, not just the data function.
 
-### Leaders can use it for  
-- deciding where to invest next
-- managing alignment gaps that need senior sponsorship  
-- identifying what to stop, start or accelerate  
-- clarifying which dependencies block value  
-- judging where evidence is strong, weak or needs validation  
-
-This shifts the dashboard from reporting to **decision-making**, ensuring leaders act on the conditions that accelerate value.
-
 ---
 
 ## 5. Measurement methods
