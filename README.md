@@ -145,33 +145,97 @@ This turns data strategy into **specific executive actions**, not just a perform
 
 ## 5. Measurement methods
 
-ValueLine assumes a **mixed-method evidence approach** – combining quantitative indicators, qualitative insight and real-world stories:
+<div class="card" style="border-top:3px solid #0ea5e9;">
 
-**Foundational activity and capacity**
+  <div class="card-title">Measurement methods</div>
+  <div class="card-subtitle">A balanced mixed-method approach for tracking value.</div>
 
-- monthly performance reports  
-- quarterly senior-leadership updates  
-- delivery artefacts, risk logs and governance papers  
+  <div style="font-size:13px; color:#444; line-height:1.55; margin-top:8px;">
 
-**Maturity and behaviour change**
+    <p style="margin:0 0 6px 0;">
+      <strong>ValueLine uses mixed-method measurement</strong> to capture both capability building and value creation.
+      Badges show which type of indicator each method mainly informs.
+    </p>
 
-- annual maturity reviews  
-- staff surveys and pulse checks  
-- training, community and participation metrics  
-- policy and standards adoption  
-- dataset, dashboard and model reuse  
-- API and open data analytics  
-- CO₂ impacts from compute and storage  
+    <!-- Quantitative -->
+    <div style="margin-top:10px; font-weight:600;">📊 Quantitative indicators</div>
+    <ul style="margin:4px 0 0 18px; padding:0; line-height:1.55;">
+      <li>
+        monthly performance reports
+        <span class="badge badge-lagging">LAGGING</span>
+      </li>
+      <li>
+        quarterly senior leadership updates
+        <span class="badge badge-signal">SIGNAL</span>
+      </li>
+      <li>
+        validated cost and time savings
+        <span class="badge badge-lagging">LAGGING</span>
+      </li>
+      <li>
+        adoption of policies and standards
+        <span class="badge badge-leading">LEADING</span>
+      </li>
+      <li>
+        dataset and model reuse
+        <span class="badge badge-signal">SIGNAL</span>
+      </li>
+      <li>
+        API and open data analytics
+        <span class="badge badge-signal">SIGNAL</span>
+      </li>
+      <li>
+        CO₂ impacts from compute and storage
+        <span class="badge badge-lagging">LAGGING</span>
+      </li>
+    </ul>
 
-**Outcomes, impact and value**
+    <!-- Qualitative -->
+    <div style="margin-top:14px; font-weight:600;">🧭 Qualitative signals</div>
+    <ul style="margin:4px 0 0 18px; padding:0; line-height:1.55;">
+      <li>
+        staff surveys
+        <span class="badge badge-signal">SIGNAL</span>
+      </li>
+      <li>
+        training and community participation
+        <span class="badge badge-leading">LEADING</span>
+      </li>
+      <li>
+        user research and engagement logs
+        <span class="badge badge-signal">SIGNAL</span>
+      </li>
+      <li>
+        case studies and reuse stories
+        <span class="badge badge-lagging">LAGGING</span>
+      </li>
+    </ul>
 
-- validated cost and time-saving estimates  
-- Benefit Cost Ratio (BCR) and Net Present Value (NPV) analysis  
-- experimental, quasi-experimental or counterfactual methods  
-- case studies, evaluation reports and user testimonials  
+    <!-- Economic -->
+    <div style="margin-top:14px; font-weight:600;">📈 Economic and experimental methods</div>
+    <ul style="margin:4px 0 0 18px; padding:0; line-height:1.55;">
+      <li>
+        Benefit Cost Ratio (BCR)
+        <span class="badge badge-lagging">LAGGING</span>
+      </li>
+      <li>
+        Net Present Value (NPV)
+        <span class="badge badge-lagging">LAGGING</span>
+      </li>
+      <li>
+        experimental or counterfactual methods
+        <span class="badge badge-lagging">LAGGING</span>
+      </li>
+    </ul>
 
-Together these provide a balanced view of **capability building** and **value creation**, rather than relying on a single “magic” metric.
+    <p style="margin-top:12px;">
+      Together these methods create a rounded, defensible view of progress from
+      foundations to outcomes and impact.
+    </p>
+  </div>
 
+  <span class="tag" style="margin-top:10px; display:inline-block;">MEASUREMENT</span>
+</div>
 ---
 
 ## 6. Why this model works
