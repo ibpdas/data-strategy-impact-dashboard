@@ -152,28 +152,26 @@ This explains why different results move at different speeds.
 
 ## 4. Executive decision box
 
-## 4. Executive decision box
-
-**Executive Decision Box** in **ValueLine** dashboard translates insights from Levels 1, 2 and 3 into the specific decisions, trade offs and actions leaders need to take.
+**Executive Decision Box** in **ValueLine** dashboard translates insights from Levels 1, 2 and 3 into the specific actions leaders need to take.
 
 It provides a focused view of:
 
-- top three asks  
+- key asks  
 - key trade offs  
 - critical dependencies  
-- confidence levels in the evidence  
+- confidence levels  
 - forward look priorities  
 
 In federated organisations, this is essential because progress and value depend on decisions made across many teams, not just the data function.
 
-### What leaders typically use it for  
-- deciding whether to invest next in **Level 1** conditions or **Level 2** maturity  
+### What leaders can use it for  
+- deciding where to invest next
 - surfacing alignment gaps that need senior sponsorship  
 - identifying what to stop, start or accelerate  
 - clarifying which dependencies block value  
 - judging where evidence is strong, weak or needs validation  
 
-The decision box shifts the dashboard from reporting to **decision-making**, ensuring leaders act on the conditions that accelerate value.
+This shifts the dashboard from reporting to **decision-making**, ensuring leaders act on the conditions that accelerate value.
 
 ---
 
