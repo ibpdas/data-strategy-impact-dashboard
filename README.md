@@ -298,16 +298,16 @@ Attribution is optional but appreciated.
 
 **ValueLine** grew out of years of leading data strategy work in complex, federated environments.
 
-Across many conversations with colleagues, and after reviewing more than fifty data strategies and business cases, the same pattern kept appearing:
+Across many conversations with colleagues and after reviewing more than fifty data strategies and business cases, the same pattern kept appearing:
 
-> Strong foundational work was happening, but the story of progress was difficult to explain.  
-> Expectations drifted, value signals came too late, and the connection between foundations, maturity and outcomes was often lost.
+> Strong foundational work was happening, but the story of progress was hard to explain.  
+> Expectations drifted, value signals came late, and the link between foundations, maturity and outcomes was often lost.
 
-I built **ValueLine** as a practical and repeatable way to make that connection clearer. It reflects trial and error, small breakthroughs and generous advice from others along the way.
+ValueLine was created as a practical, repeatable way to make that connection clearer. It reflects trial and error, small breakthroughs and generous advice from others along the way.
 
-If it helps even a few people and teams focus on what matters and explain their impact with more clarity, it will have done its job.
+If it helps even a few teams focus on what matters and explain their impact with more clarity, it will have done its job.
 
-— **Bandhu P. Das**
+- **Bandhu P. Das**
 
 <p align="center">
   <a href="https://www.brighttalk.com/webcast/12405/602410" target="_blank">
