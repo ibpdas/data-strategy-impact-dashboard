@@ -34,9 +34,11 @@ A simple, practical model for showing how foundational data work turns into matu
 Public sector leaders care deeply about outcomes, but the link between data work and real impact is often unclear.
 
 Foundational activities are essential, yet their contribution to maturity, behaviour change and public value is hard to see.  
+
 This creates unclear expectations, late value signals and inconsistent support.
 
 **ValueLine** gives a clear, plain-English line of sight from foundations → maturity → outcomes.  
+
 It shows what’s changing, why different results move at different speeds, and what leaders need to focus on now, next and later.
 
 It grew out of seeing strong foundational work being delivered, but the story of progress remaining hard to explain.
