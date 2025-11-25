@@ -72,10 +72,10 @@ ValueLine breaks the journey into three causal levels:
 
 This helps leaders understand:
 
-- what unlocks value now vs later  
-- why early signals matter even when outcomes lag  
-- where dependencies and decisions sit  
-- how different results move at different speeds  
+- What unlocks value now vs later  
+- Why early signals matter even when outcomes lag  
+- Where dependencies and decisions sit  
+- How different results move at different speeds  
 
 ### ❗ What ValueLine isn’t
 
@@ -104,7 +104,7 @@ ValueLine combines three levels, three indicators and three measurement methods,
 ### 2.1 The three levels — what changes over time
 
 **Level 1 — Foundations**  
-Strategy alignment, leadership, standards, platforms, communities of practice.
+Strategy alignment, leadership buy-in, shared capabilities, communities, engagement.
 
 **Level 2 — Maturity**  
 Reuse, interoperability, confidence, evidence-informed decisions, stronger collaboration.
@@ -151,14 +151,14 @@ This turns ValueLine into a decision tool rather than a descriptive diagram.
 
 The **Executive Decision Box** translates insights into simple leadership asks:
 
-- essential decisions  
-- trade offs and dependencies  
-- confidence levels  
-- now / next / later priorities  
+- Essential decisions  
+- Trade offs and dependencies  
+- Confidence levels  
+- Now / next / later priorities  
 
-In a federated system, this is crucial — value depends on decisions across many teams, not just the data function.
+In a federated system, this is crucial because value depends on decisions across many teams, not just the data function.
 
-It also **makes early change visible**, which is often what shifts mindsets, builds support and accelerates culture change.
+It also **makes early change visible**, which is often what shifts mindsets, builds support and accelerates change.
 
 ---
 
@@ -166,16 +166,16 @@ It also **makes early change visible**, which is often what shifts mindsets, bui
 
 ValueLine works because it:
 
-- reflects how federated organisations actually operate  
-- clarifies contribution vs attribution  
-- sets realistic expectations on pacing  
-- makes invisible value visible  
-- focuses attention on the shifts that matter most  
-- reduces repeated work and misaligned effort  
+- Reflects how federated organisations actually operate  
+- Clarifies contribution vs attribution  
+- Sets realistic expectations on pacing  
+- Makes invisible value visible  
+- Focuses attention on the shifts that matter most  
+- Rrduces misaligned effort and improve collaboration 
 
 Most importantly, it keeps strategy **alive**.
 
-By connecting strategy to real time signals of change, ValueLine prevents strategy becoming shelfware.  
+By connecting strategy to real time updates of change, ValueLine prevents strategy becoming shelfware.  
 It becomes a living tool for action, alignment and collaboration.
 
 ---
@@ -185,11 +185,11 @@ It becomes a living tool for action, alignment and collaboration.
 ValueLine only works when leaders act on what it surfaces.  
 This can mean:
 
-- Clear ownership of data domains and standards  
+- Sponsoring ownership of data domains and standards  
 - Prioritising shared foundations over local optimisation  
-- Fast resolution of cross team dependencies
-- Aligned budgets and resources for Level 1 and Level 2 work  
-- Consistent reinforcement of reuse, interoperability and evidence led decisions  
+- Providing resolution of cross team dependencies
+- Agreeing aligned budgets and resources for Level 1 and Level 2 work  
+- Consistently reinforcing reuse, interoperability and evidence led decisions  
 
 Without these leadership actions, foundations stall and outcomes lag — regardless of technical effort.
 
@@ -277,6 +277,6 @@ If it helps teams focus on what matters and communicate impact with more confide
 
 <p align="center">
   <a href="https://www.brighttalk.com/webcast/12405/602410" target="_blank">
-    <img src="https://img.shields.io/badge/Talk-Unlocking%20the%20Value%20of%20Data-blue?style=flat-square" alt="Talk: Unlocking the Value of Data" />
+    <img src="https://img.shields.io/badge/Talk-Unlocking%20the%20Value%20of%20Data-blue?style=flat-square" alt="Watch my 2023 DAMA UK Talk: Unlocking the Value of Data" />
   </a>
 </p>
