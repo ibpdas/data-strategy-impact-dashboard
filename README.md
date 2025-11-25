@@ -48,6 +48,7 @@ It grew out of seeing strong foundational work being delivered, but the story of
 ## 1. What problem this model solves
 
 In federated organisations, no single team controls the data value chain.  
+
 This creates three persistent challenges:
 
 - **Unclear attribution** between foundational work and outcomes  
@@ -91,7 +92,7 @@ ValueLine does **not** estimate financial, social or economic value.
 It does **not** audit capability or assign scores.
 
 Its purpose is simpler:  
-**to accelerate path to value by explaining how foundational work leads to maturity, behaviour change and outcomes in federated organisations.**
+> to accelerate path to value by explaining how foundational work leads to maturity, behaviour change and outcomes in federated organisations.
 
 ---
 
