@@ -94,135 +94,142 @@ Its purpose is simpler:
 
 ## 2. How the model works
 
-ValueLine combines three levels, three indicators and three measurement methods, all tied together by a simple theory of change.
+ValueLine uses a simple causal chain to explain how foundational work turns into maturity, behaviour change and measurable public value across a federated organisation.
+
+The model is built around **three levels**, the **shifts** that signal progress, the **indicators** that show pacing, the **evidence types** that build confidence, and a light-touch **theory of change** that ties everything together.
 
 ---
 
 ### 2.1 The three levels — what changes over time
 
 **Level 1 — Foundations**  
-Strategy alignment, leadership buy-in, shared capabilities, communities, consistent engagement.
+Strategy alignment, ownership, common platforms and standards, communities and engagement.
 
 **Level 2 — Maturity**  
-Reuse, interoperability, confidence, evidence-informed decisions, stronger collaboration.
+How the organisation behaves when foundations take hold: reuse, interoperability, confidence, collaboration and evidence-informed decisions.
 
-**Level 3 — Outcomes**  
-Savings, time reduction, efficiency, improved services, public good impact.
+**Level 3 — Outcomes & impact**  
+Savings, time reduction, efficiency, improved services and public good impact.
 
-> A clean chain: foundations → maturity → outcomes & impact.
-
----
-
-### 2.2 The three indicators — how fast results appear
-
-**Leading indicators** — early signs foundations are forming  
-**Signal indicators** — behavioural and system changes  
-**Lagging indicators** — measurable public value  
-
-> These explain why Level 3 cannot appear before Level 1 and Level 2 shifts.
+> A clean chain: **foundations → maturity → outcomes & impact**.
 
 ---
 
-### 2.3 The three measurement methods — how evidence builds
+### 2.2 The shifts that matter — how you know the system is changing
 
-ValueLine uses a mixed evidence approach:
-
-- **Quantitative** — savings, adoption, reuse, usage  
-- **Qualitative** — sentiment, user research, case studies  
-- **Economic/experimental** — BCR, NPV, counterfactuals  
-
-> No single metric provides the full picture.
-
----
-
-### 2.4 Theory of change wrapper — the connective logic
-
-- **If** foundations improve  
-- **then** maturity strengthens  
-- **which enables** outcomes to appear  
-- **subject to** leadership decisions, constraints and system conditions  
-
-> This turns ValueLine into a decision tool rather than a descriptive diagram.
-
----
-### 2.5 The three levels at a glance — the shifts that matter
-
-ValueLine tracks **how the system shifts over time** as foundations strengthen and maturity increases.
+ValueLine focuses on **shifts**, not scores.  
+These shifts are early, visible signs that the organisation is moving in the right direction.
 
 #### **Level 1 — Foundational enabler shifts**  
-Early conditions shaped by data leaders and partner teams. Typical shifts include:
+Early conditions shaped by data leaders and partner teams:
 
-- **Strategy** — isolated priorities → shared direction and cross-cutting data priorities  
+- **Strategy** — isolated priorities → shared cross-cutting priorities  
 - **Leadership** — “their data problem” → shared ownership and accountability  
 - **Foundation** — fragmented fixes → common policies, platforms and standards  
 - **Community** — pockets of innovation → shared practice and reusable capabilities  
-- **Engagement** — ad-hoc conversations → ongoing cross-functional, cross-organisational engagement  
-
----
+- **Engagement** — ad-hoc conversations → ongoing cross-functional engagement  
 
 #### **Level 2 — Maturity shifts**  
-How the organisation behaves when Level 1 foundations take effect (aligned to the *Data Maturity Assessment for Government, 2023*):
+How the organisation behaves when Level 1 takes effect  
+(aligned to the *Data Maturity Assessment for Government, 2023*):
 
 - **Uses** — reactive reporting → proactive operational and strategic use  
-- **Data** — siloed/inconsistent → coherent, reusable, governed and interoperable  
-- **Leadership** — passive/detached → active sponsorship and expectation-setting  
-- **Culture** — sporadic/low-confidence → everyday data-informed decisions  
-- **Tools** — fragmented → integrated, discoverable and self-service  
-- **Skills** — pockets of expertise → widespread literacy and continuous development  
-
----
+- **Data** — inconsistent → coherent, reusable and interoperable  
+- **Leadership** — passive → active sponsorship and expectation-setting  
+- **Culture** — low confidence → everyday data informed decisions  
+- **Tools** — fragmented → discoverable, integrated and self-service  
+- **Skills** — pockets of expertise → widespread literacy and continuous learning  
 
 #### **Level 3 — Outcome and impact shifts**  
-As Level 1 and 2 strengthen, public value moves in predictable ways:
+As Levels 1 and 2 strengthen, public value moves in predictable ways:
 
-- **Financial savings** — isolated wins → sustained, organisation-wide efficiencies  
+- **Financial savings** — isolated wins → organisation wide efficiencies  
 - **User satisfaction** — anecdotal → measurable, repeatable improvements  
-- **Efficiency gains** — local wins → system-wide improvements in core processes  
-- **Time savings** — task-based → end-to-end workflow optimisation  
-- **Public good impact** — occasional → continuous contributions to policy and service outcomes  
+- **Efficiency gains** — local wins → system wide improvements  
+- **Time savings** — task based → end to end workflow optimisation  
+- **Public good impact** — occasional → continuous contributions to policy and services  
 
 ---
 
-### 2.6 Bias prompts for interpretation
+### 2.3 Indicators — how fast results appear
 
-The dashboard includes a small set of **bias prompt cards**. These are not a full catalogue of cognitive biases, but simple reminders used when:
+Different types of results appear at different speeds:
 
-- interpreting maturity scores  
-- choosing which ValueLine shifts to prioritise  
-- framing trade offs in the Executive Decision Box  
+- **Leading indicators** — early signs foundations are forming  
+- **Signal indicators** — behavioural and system changes  
+- **Lagging indicators** — measurable public value  
 
-Examples include the cobra effect, Goodhart's law, availability bias, present bias, sunk cost fallacy and optimism bias.  
+> These pacing differences prevent premature pressure for outcomes before the system is ready.
 
-Their aim is to make judgement risks visible and discussable, so that decisions about investment, sequencing and evidence are more grounded and transparent.
+---
+
+### 2.4 Mixed-method measurement — how confidence builds
+
+ValueLine uses a rounded evidence approach:
+
+- **Quantitative** — adoption, reuse, savings, usage  
+- **Qualitative** — sentiment, user research, case studies  
+- **Economic / experimental** — BCR, NPV, counterfactuals  
+
+> No single metric captures capability or public value. Mixed evidence builds a more credible picture.
+
+---
+
+### 2.5 Theory of change — the connective logic
+
+A simple, lightweight chain sits underneath the model:
+
+- **If** Level 1 improves  
+- **then** Level 2 strengthens  
+- **which enables** Level 3 outcomes to appear  
+- **subject to** leadership decisions, constraints and system conditions  
+
+> This shifts ValueLine from a descriptive diagram into a practical decision tool.
+
+---
+
+### 2.6 Bias prompts — decision hygiene for interpreting progress
+
+The dashboard includes small **bias prompt cards** to support interpretation and prioritisation.  
+They help teams avoid common judgement traps when reviewing evidence, selecting shifts or interpreting early signals.
+
+Examples include:
+
+- cobra effect  
+- Goodhart’s law  
+- availability bias  
+- present bias  
+- sunk cost fallacy  
+- optimism bias  
+
+> These prompts keep discussions grounded and help leaders make clearer, more transparent decisions.
 
 ---
 
 ## 3. Leadership value & responsibilities
 
-### **3.1 What leaders get from ValueLine**
+### 3.1 What leaders get from ValueLine
 
-The **Executive Decision Box** distils insights into what leaders need to steer the system:
+The **Executive Decision Box** distils what leaders need to steer the system:
 
 - essential decisions  
 - trade offs and dependencies  
 - confidence levels  
 - now / next / later priorities  
 
-It also **makes early change visible** — often the key trigger for building confidence, shifting mindsets and accelerating organisational change.
+It makes early change visible — a key trigger for confidence and alignment.
 
----
+### 3.2 What ValueLine requires from leaders
 
-### **3.2 What ValueLine needs from leaders**
+ValueLine works when leaders:
 
-ValueLine only works when leaders act on what it surfaces. This typically requires:
+- confirm ownership and decision rights  
+- back shared foundations over local optimisation  
+- unblock cross team dependencies  
+- retire duplicative tools when common capabilities exist  
+- reinforce evidence informed decisions and reuse  
 
-- clear ownership of data domains and standards  
-- balancing trade off between shared foundations and local optimisation  
-- timely resolution of cross-team dependencies  
-- align resources and be willing to retire duplicative tools and processes when common capabilities exist
-- consistent reinforcement of reuse, interoperability and data led decisions  
-
-Without these leadership behaviours, foundations stall and outcomes lag, regardless of technical effort.
+Without these behaviours, foundations stall and outcomes lag.
 
 ---
 
@@ -230,15 +237,14 @@ Without these leadership behaviours, foundations stall and outcomes lag, regardl
 
 ValueLine works because it:
 
-- reflects how federated organisations actually operate  
+- reflects how federated organisations operate  
 - clarifies contribution vs attribution  
 - sets realistic expectations on pacing  
-- makes invisible value visible  
-- focuses attention on the shifts that matter most  
-- reduces misaligned effort and strengthens collaboration  
+- makes early signals visible  
+- focuses attention on the shifts that matter  
+- reduces misalignment and strengthens collaboration  
 
-Most importantly, it keeps strategy **alive**.  
-By showing emerging signals of change, ValueLine prevents strategy becoming shelfware and turns it into a living tool for alignment and action.
+By connecting foundations → maturity → outcomes, it turns strategy into a living tool rather than shelfware.
 
 ---
 
