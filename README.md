@@ -207,14 +207,45 @@ By showing emerging signals of change, ValueLine prevents strategy becoming shel
 
 ## 5. How to use the model in practice
 
-When using the dashboard in workshops or leadership sessions:
+Different groups use the model in different ways depending on what they are accountable for.
 
-- start with the high level story (Levels 1, 2, 3)  
-- walk through the Leadership Actions in _Executive Decision Box_  
-- then use the **bias prompt cards** as a short pause point:  
-  - "If this bias were present here, how would it distort what we see or what we plan to do next?"  
+| Group | How they use it | What they care about |
+|-------|-----------------|----------------------|
+| **Executives and senior leaders** | Executive Decision Box and maturity/outcome signals | trade offs, prioritisation, confidence levels, pacing |
+| **CDO and data leadership teams** | Foundations, shifts, sequencing, dependency mapping | alignment, realistic delivery plans, early signals, cross-team clarity |
+| **Portfolio, PMO, finance and benefits teams** | Causal chain, indicators, contribution to impact | investment rationale, duplication, benefits evidence, coherence |
+| **Cross-functional delivery teams** | Shifts + foundations to understand their part in the system | blockers, adoption, dependencies, reuse, interoperability |
+| **ALBs and federated partners** | A consistent view of maturity and outcomes without league tables | autonomy with alignment, shared foundations, transparency, predictable collaboration |
 
-This keeps the conversation practical while creating a small habit of decision hygiene around data strategy choices.
+---
+
+### Using the dashboard in sessions
+
+When running workshops or leadership conversations:
+
+1. Start with the high level story (Levels 1, 2, 3).  
+2. Walk through the Executive Decision Box.  
+3. Review leading and signal indicators before lagging metrics.  
+4. Use the **bias prompt cards** as a short decision hygiene step:  
+   - “If this bias were present, how would it distort what we are seeing?”  
+
+This keeps conversations grounded and reduces misinterpretation of early signals.
+
+---
+
+### Why this matters in federated organisations
+
+Federated organisations rarely move as one system. Each directorate or ALB has its own pressures, timelines and constraints.  
+ValueLine helps by creating a shared way to:
+
+- make foundational work visible even when delivered by different teams  
+- spot misaligned effort early  
+- show how local wins connect to organisation-wide outcomes  
+- reduce narrative drift when different groups interpret progress differently  
+- keep expectations realistic without slowing ambition  
+
+In a federated system, the goal is not uniformity.  
+The goal is **coherence**. ValueLine provides the structure that makes that possible.
 
 ---
 
