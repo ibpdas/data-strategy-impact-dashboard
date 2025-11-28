@@ -496,66 +496,54 @@
     color: #4b5563;
     margin-top: 2px;
   }
-  /* Palette - adjust if you already have design tokens */
-:root {
-  --vl-bg: #f7fafc;
-  --vl-card-bg: #ffffff;
-  --vl-border-subtle: #e5e7eb;
-  --vl-border-strong: #cbd5f5;
-  --vl-text-main: #111827;
-  --vl-text-muted: #4b5563;
-  --vl-accent: #1d70b8;   /* Defra blue */
-  --vl-accent-soft: #e0f0ff;
-}
-
-/* Section wrapper */
+  /* Bias reminders section */
 #bias-reminders {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   padding: 1.5rem;
   border-radius: 16px;
   background: linear-gradient(to bottom right, #f9fafb, #edf2ff);
-  border: 1px solid var(--vl-border-subtle);
+  border: 1px solid #e5e7eb;
 }
 
-/* Headings */
+/* Section heading and subtitle */
 #bias-reminders .section-title {
   font-size: 1.4rem;
   font-weight: 650;
-  color: var(--vl-text-main);
   margin-bottom: 0.25rem;
+  color: #111827;
 }
 
 #bias-reminders .section-subtitle {
   font-size: 0.9rem;
-  color: var(--vl-text-muted);
+  color: #4b5563;
   margin-bottom: 1.25rem;
 }
 
-/* Grid */
+/* Grid layout for cards */
 .bias-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
 }
 
-/* Card */
+/* Individual card */
 .bias-card {
-  background-color: var(--vl-card-bg);
+  background-color: #ffffff;
   border-radius: 14px;
   padding: 14px 16px;
-  border: 1px solid var(--vl-border-subtle);
+  border: 1px solid #e5e7eb;
   box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
   transition: box-shadow 150ms ease, transform 150ms ease, border-color 150ms ease, background-color 150ms ease;
 }
 
 .bias-card:hover {
   transform: translateY(-1px);
-  border-color: var(--vl-border-strong);
+  border-color: #cbd5f5;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
   background-color: #fdfefe;
 }
 
-/* Card heading with pill */
+/* Card header with small pill */
 .bias-card-header {
   display: flex;
   align-items: center;
@@ -567,26 +555,26 @@
   width: 26px;
   height: 26px;
   border-radius: 999px;
-  background: var(--vl-accent-soft);
+  background: #e0f0ff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--vl-accent);
+  color: #1d70b8;
 }
 
 .bias-card h3 {
   font-size: 1rem;
   margin: 0;
-  color: var(--vl-text-main);
+  color: #111827;
 }
 
-/* Labels and text */
+/* Labels */
 .bias-card h4 {
   font-size: 0.8rem;
   margin: 0.35rem 0 0.15rem 0;
-  color: var(--vl-text-muted);
+  color: #4b5563;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -595,13 +583,7 @@
 .bias-card p {
   font-size: 0.85rem;
   margin: 0 0 0.15rem 0;
-  color: var(--vl-text-main);
-}
-
-/* Make labels look like micro headings */
-.bias-card .label {
-  font-size: 0.75rem;
-  color: var(--vl-accent);
+  color: #111827;
 }
 
 /* Dark mode sensitivity */
@@ -630,7 +612,6 @@
     color: #e5e7eb;
   }
 }
-
 </style>
 </head>
 
