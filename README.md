@@ -11,7 +11,7 @@
 <h1 align="center">ValueLine: A Clearer Line of Sight from Data to Impact</h1>
 
 <p align="center">
-Focus on the right things. Accelerate value creation. Measure what matters.
+A unified system for public sector data leaders to align strategy, run diagnostics and assess performance to accelerate data value.
 </p>
 
 ---
