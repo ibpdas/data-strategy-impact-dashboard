@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://ibpdas.github.io/valueline/" target="_blank">
-    <img src="https://img.shields.io/badge/Open%20Dashboard-Live%20Demo-blue?style=for-the-badge" alt="Live Demo">
+    <img src="https://img.shields.io/badge/Launch%20ValueLine-Live%20Demo-blue?style=for-the-badge" alt="Live Demo">
   </a>
 </p>
 
 <h1 align="center">ValueLine: A Clearer Line of Sight from Data to Impact</h1>
 
 <p align="center">
-ValueLine is an integrated framework that aligns strategy, diagnostics and measurement to create a clear line of sight from data foundations to public impact and to accelerate progress where it matters most.
+Focus on the right things. Accelerate value creation. Measure what matters.
 </p>
 
 ---
@@ -15,354 +15,345 @@ ValueLine is an integrated framework that aligns strategy, diagnostics and measu
 ## Navigation
 
 - [Concept in 30 seconds](#concept-in-30-seconds)
-- [1. What problem this model solves](#1-what-problem-this-model-solves)
-- [2. How the model works](#2-how-the-model-works)
+- [1. The problem ValueLine solves](#1-the-problem-valueline-solves)
+  - [What ValueLine provides](#what-valueline-provides)
+  - [What ValueLine isn’t](#what-valueline-isnt)
+- [2. How ValueLine works](#2-how-valueline-works)
+  - [2.1 Strategic logic model — Focus on the right things](#21-strategic-logic-model--focus-on-the-right-things)
+  - [2.2 Diagnostic & prioritisation tool — Accelerate value-creation](#22-diagnostic--prioritisation-tool--accelerate-value-creation)
+  - [2.3 Performance & learning system — Measure what matters](#23-performance--learning-system--measure-what-matters)
 - [3. Leadership value & responsibilities](#3-leadership-value--responsibilities)
-- [4. Why this model works](#4-why-this-model-works)
-- [5. How to use the model in practice](#5-how-to-use-the-model-in-practice)
-- [6. What this repository includes](#6-what-this-repository-includes)
+- [4. Why ValueLine works](#4-why-valueline-works)
+- [5. How to use the model](#5-how-to-use-the-model)
+- [6. Repository contents](#6-repository-contents)
 - [7. Status](#7-status)
 - [8. Limitations](#8-limitations)
-- [9. Contributing and reuse](#9-contributing-and-reuse)
+- [9. Contributing](#9-contributing)
 - [10. Why I created ValueLine](#10-why-i-created-valueline)
 
 ---
 
-## 📌 Concept in 30 seconds
+# Concept in 30 seconds
 
-Public sector leaders care deeply about outcomes, but the link between data work and real impact is often unclear.  
+Public sector data leaders care deeply about outcomes, but the link between **foundational work** and **real outcomes** is often unclear.  
+Foundations are invisible, maturity develops unevenly, and outcomes appear late.  
+This leads to duplicated effort, drifting expectations and slower value creation.
 
-Foundational activities are essential, yet their contribution to maturity and outcomes is hard to see.  
+**ValueLine makes this path visible.**
 
-That leads to misaligned expectations, duplicated effort, slower impact and results that are harder to sustain.
+It combines a **strategic logic model**, a **diagnostic & prioritisation tool**, and a **performance & learning system** to show:
 
-> ValueLine brings together a causal model, a delivery focussed dashboard and a lightweight methodology to show where value is emerging, how maturity is shifting and where leadership action is needed to accelerate the path to impact.
+- how foundations → maturity → outcomes connect  
+- where early value is emerging  
+- where leadership attention is needed  
+- how federated teams can stay aligned  
 
-It turns data strategy alive and actionable, surfacing early signals and keeping federated teams aligned around a shared picture of progress.
-
+ValueLine turns data strategy into a *practical*, *living* decision tool.
 
 ---
 
-## 1. What problem this model solves
+# 1. The problem ValueLine solves
 
-In federated organisations, no single team controls the full data value chain.  
+In federated organisations, no single team controls the full data value chain. This creates persistent challenges:
 
-This creates persistent challenges:
-
-- **Unclear attribution** between foundational work and outcomes  
-- **Competing priorities** that dilute focus  
-- **Fragmented collaboration** across teams and functions  
+- unclear attribution between foundational work and outcomes  
+- competing local priorities  
+- fragmented collaboration  
+- narrative drift on progress  
+- delayed or inconsistent value signals  
 
 When the line of sight is weak, organisations:
 
-- Focus effort in the wrong places  
-- Misread progress  
-- Invest without addressing root causes  
-- Create short term fixes that become long term bottlenecks  
-- Experience delayed or diluted impact
-- Struggle to scale beyond pilots
-
-### How ValueLine addresses this
-
-ValueLine breaks the journey into three causal levels:
-
-- **Level 1: Foundations** — what data and partner teams directly shape  
-- **Level 2: Maturity** — how the organisation behaves when foundations take hold  
-- **Level 3: Outcomes** — the measurable value that emerges later  
-
-This helps leaders understand:
-
-- What unlocks value now vs later  
-- Why early signals matter even when outcomes lag  
-- Where dependencies and decisions sit  
-- How different results move at different speeds  
+- prioritise the wrong things  
+- misread progress  
+- invest without tackling root causes  
+- create fixes that later become blockers  
+- struggle to scale impact beyond pilots  
 
 ---
 
-### ❗ What ValueLine isn’t
+## What ValueLine provides
 
-To avoid confusion, ValueLine is **not**:
+ValueLine brings together **three integrated capabilities**:
 
+### **1. Strategic logic model**  
+Clarifies how foundations strengthen maturity and enable outcomes.
+
+### **2. Diagnostic & prioritisation tool**  
+Identifies the critical shifts that unlock progress and focus effort.
+
+### **3. Performance & learning system**  
+Builds a credible, mixed-method picture of value.
+
+Together, these help leaders understand:
+
+- what drives value now vs later  
+- where bottlenecks sit  
+- how early signals indicate movement  
+- which actions accelerate outcomes  
+- how federated teams stay aligned  
+
+---
+
+## What ValueLine isn’t
+
+ValueLine is **not**:
+
+- a maturity scorecard  
 - a valuation framework  
-- a capability or maturity model (e.g., DAMA, DCAM)  
-- a regulatory or compliance scorecard  
-- a substitute for technical standards, governance or assurance  
+- a compliance tool  
+- a governance substitute  
 
-ValueLine does **not** estimate economic value, audit capability or assign scores.
+It does **not** estimate economic benefits, assign maturity scores or replace assurance.  
+Instead, it uses quantitative, qualitative and experimental evidence to build a balanced and credible picture of progress.
 
-Its purpose is simpler:  
-> to accelerate the path to value by explaining how foundational work leads to maturity, behaviour change and outcomes in federated organisations.
+Its purpose is simpler:
 
----
-
-## 2. How the model works
-
-ValueLine uses a simple causal chain to explain how foundational work turns into maturity, behaviour change and measurable public value across a federated organisation.
-
-The model is built around **three levels**, the **shifts** that signal progress, the **indicators** that show pacing, the **evidence types** that build confidence, and a light-touch **theory of change** that ties everything together.
+> **To accelerate value creation by making the causal logic clear and actionable.**
 
 ---
 
-### 2.1 The three levels — what changes over time
+# 2. How ValueLine works
+
+ValueLine is built on **three integrated components**, aligned with the ValueLine visual.
+
+---
+
+## 2.1 Strategic logic model — Focus on the right things
+
+The strategic logic model explains the **causal path** from foundations to outcomes.
+
+### **The three levels**
 
 **Level 1 — Foundations**  
-Strategy alignment, ownership, common platforms and standards, communities and engagement.
+Strategy alignment, shared ownership, common platforms and standards, communities and engagement.
 
 **Level 2 — Maturity**  
-How the organisation behaves when foundations take hold: reuse, interoperability, confidence, collaboration and evidence-informed decisions.
+Reuse, interoperability, confident culture, collaboration and evidence-informed decisions.
 
 **Level 3 — Outcomes & impact**  
-Savings, time reduction, efficiency, improved services and public good impact.
+Savings, efficiency, time reduction, service quality and public good impact.
 
 > A clean chain: **foundations → maturity → outcomes & impact**.
 
 ---
 
-### 2.2 The shifts that matter — how you know the system is changing
+### **Theory of change**
 
-ValueLine focuses on **shifts**, not scores.  
-These shifts are early, visible signs that the organisation is moving in the right direction.
+A lightweight theory of change underpins progress:
 
-#### **Level 1 — Foundational enabler shifts**  
-Early conditions shaped by data leaders and partner teams:
+- If **Level 1** improves  
+- then **Level 2** strengthens  
+- which enables **Level 3** outcomes  
+- **when leadership, incentives and system conditions reinforce intended shifts**
 
-- **Strategy** — isolated priorities → shared cross-cutting priorities  
-- **Leadership** — “their data problem” → shared ownership and accountability  
-- **Foundation** — fragmented fixes → common policies, platforms and standards  
-- **Community** — pockets of innovation → shared practice and reusable capabilities  
-- **Engagement** — ad-hoc conversations → ongoing cross-functional engagement  
-
-#### **Level 2 — Maturity shifts**  
-How the organisation behaves when Level 1 takes effect  
-(aligned to the *Data Maturity Assessment for Government, 2023*):
-
-- **Uses** — reactive reporting → proactive operational and strategic use  
-- **Data** — inconsistent → coherent, reusable and interoperable  
-- **Leadership** — passive → active sponsorship and expectation-setting  
-- **Culture** — low confidence → everyday data informed decisions  
-- **Tools** — fragmented → discoverable, integrated and self-service  
-- **Skills** — pockets of expertise → widespread literacy and continuous learning  
-
-#### **Level 3 — Outcome and impact shifts**  
-As Levels 1 and 2 strengthen, public value moves in predictable ways:
-
-- **Financial savings** — isolated wins → organisation wide efficiencies  
-- **User satisfaction** — anecdotal → measurable, repeatable improvements  
-- **Efficiency gains** — local wins → system wide improvements  
-- **Time savings** — task based → end to end workflow optimisation  
-- **Public good impact** — occasional → continuous contributions to policy and services  
+This turns the logic model into a practical decision tool.
 
 ---
 
-### 2.3 Indicators — how fast results appear
+## 2.2 Diagnostic & prioritisation tool — Accelerate value creation
 
-Different types of results appear at different speeds:
+This component identifies **where the system is moving**, **why**, and **what matters next**.
+
+It uses **shifts** to interpret movement and **indicators** to understand pacing.
+
+---
+
+### **Shifts — early signs of meaningful change**
+
+ValueLine focuses on **shifts**, not scores.  
+Shifts reveal whether the organisation is genuinely moving in the right direction.
+
+---
+
+### **Level 1 — Foundational enabler shifts**
+
+These five enablers represent the essential building blocks shaped by data leadership and partner teams:
+
+- **Strategy** — isolated priorities → shared, cross-cutting priorities  
+- **Leadership** — “their data problem” → shared ownership and accountability  
+- **Foundation (platforms, standards, policies)** — fragmented fixes → common platforms, standards and reusable components  
+- **Community** — pockets of innovation → shared practice, knowledge exchange and reusable assets  
+- **Engagement** — ad-hoc conversations → ongoing cross-functional engagement and collaboration  
+
+---
+
+### **Level 2 — Maturity shifts**
+
+Aligned to the **six Data Maturity Themes** used across government:
+
+- **Uses** — reactive reporting → proactive, integrated use  
+- **Data** — inconsistent → coherent, reusable and interoperable  
+- **Leadership** — passive → active sponsorship and expectation-setting  
+- **Culture** — low confidence → everyday data-informed decisions  
+- **Tools** — fragmented → discoverable, integrated and self-service  
+- **Skills** — pockets of expertise → widespread literacy and continuous learning  
+
+---
+
+### **Level 3 — Outcome & impact shifts**
+
+- isolated wins → organisation wide efficiencies  
+- anecdotal satisfaction → measurable improvements  
+- task-based efficiency → end to end optimisation  
+- occasional public good impact → continuous contributions to policy and services  
+
+---
+
+### **Indicators — understanding pacing**
 
 - **Leading indicators** — early signs foundations are forming  
 - **Signal indicators** — behavioural and system changes  
 - **Lagging indicators** — measurable public value  
 
-> These pacing differences prevent premature pressure for outcomes before the system is ready.
+These differences prevent premature pressure on outcomes before the system is ready.
 
 ---
 
-### 2.4 Mixed-method measurement — how confidence builds
+## 2.3 Performance & learning system — Measure what matters
 
-ValueLine uses a rounded evidence approach:
+ValueLine uses a **mixed-method evidence model** to build a rounded, credible picture of progress.
 
-- **Quantitative** — adoption, reuse, savings, usage  
-- **Qualitative** — sentiment, user research, case studies  
-- **Economic / experimental** — BCR, NPV, counterfactuals  
+### **Evidence types**
 
-> No single metric captures capability or public value. Mixed evidence builds a more credible picture.
+- **Quantitative** — adoption, reuse, usage, cost reduction, NPV, BCRs  
+- **Qualitative** — sentiment, interviews, case studies, user research  
+- **Experimental** — counterfactuals, controlled comparisons, before / after tests   
 
----
-
-### 2.5 Theory of change — the connective logic
-
-A simple, lightweight chain sits underneath the model:
-
-- **If** Level 1 improves  
-- **then** Level 2 strengthens  
-- **which enables** Level 3 outcomes to appear  
-- **subject to** leadership decisions, constraints and system conditions  
-
-> This shifts ValueLine from a descriptive diagram into a practical decision tool.
+No single metric captures capability or value.  
+Mixed evidence creates a **more robust and less fragile** narrative.
 
 ---
 
-### 2.6 Bias prompts — decision hygiene for interpreting progress
+# 3. Leadership value & responsibilities
 
-The dashboard includes small **bias prompt cards** to support interpretation and prioritisation.  
-They help teams avoid common judgement traps when reviewing evidence, selecting shifts or interpreting early signals.
+### **What leaders gain**
 
-Examples include:
-
-- cobra effect  
-- Goodhart’s law  
-- availability bias  
-- present bias  
-- sunk cost fallacy  
-- optimism bias  
-
-> These prompts keep discussions grounded and help leaders make clearer, more transparent decisions.
-
----
-
-## 3. Leadership value & responsibilities
-
-### 3.1 What leaders get from ValueLine
-
-The **Executive Decision Box** distils what leaders need to steer the system:
-
-- essential decisions  
-- trade offs and dependencies  
+- a root cause view of what’s enabling or blocking progress  
 - confidence levels  
+- dependencies and pacing  
 - now / next / later priorities  
+- structured trade offs  
 
-> It makes early change visible, a key trigger for confidence and alignment.
-
-### 3.2 What ValueLine requires from leaders
+### **What ValueLine requires from leaders**
 
 ValueLine works when leaders:
 
+- reinforce shared foundations over local optimisation  
 - confirm ownership and decision rights  
-- back shared foundations over local optimisation  
-- unblock cross team dependencies  
-- retire duplicative tools when common capabilities exist  
-- reinforce evidence informed decisions and reuse  
+- unblock dependencies  
+- retire duplicative tools  
+- role model evidence informed decision making  
 
 ---
 
-## 4. Why this model works
+# 4. Why ValueLine works
 
-ValueLine works because it reflects how change actually happens in complex public sector systems.  
+ValueLine reflects how change happens in complex public-sector systems:
 
-It clarifies contribution, sets realistic expectations and makes early signals visible — all of which are essential in federated organisations where no single team controls the whole value chain.
+- foundations matter, but take time  
+- maturity emerges unevenly  
+- outcomes lag  
+- early signals drive confidence  
+- federated teams need coherence, not uniformity  
 
-It works by:
+ValueLine succeeds because it:
 
-- grounding progress in **shifts**, not scores  
-- linking foundations → maturity → outcomes with a clean causal chain  
-- showing **early signs** of value before outcomes appear  
-- reducing misaligned effort and duplicated activity  
-- creating a shared language that strengthens collaboration across teams  
+- clarifies contribution  
+- reduces misinterpretation  
+- reveals early value  
+- aligns expectations  
+- keeps strategy alive and useful  
 
-Most importantly, it keeps strategy **alive**.  
-
-By surfacing early movement and emerging signals, ValueLine prevents strategy from becoming shelfware and turns it into a practical tool for alignment and decision making.
-
----
-
-### 4.1 Why this matters in federated organisations
-
-Federated organisations rarely move as a single system.  
-Each directorate or ALB operates with its own pressures, timelines and constraints, which makes alignment, pacing and interpretation of progress particularly challenging.
-
-ValueLine helps by creating a shared way to:
-
-- make foundational work visible even when delivered by different teams  
-- spot misaligned or duplicated effort early  
-- connect local wins to organisation-wide outcomes  
-- reduce narrative drift when groups interpret progress differently  
-- keep expectations realistic without slowing ambition  
-
-> In federated systems, the goal is not uniformity, the goal is **coherence**.  
-
-ValueLine provides the structure that makes that possible.
+In federated systems, coherence is the goal.  
+ValueLine provides the structure that makes it possible.
 
 ---
 
-## 5. How to use the model in practice
+# 5. How to use the model
 
-Different groups use the model in different ways depending on what they are accountable for.
+Different groups use ValueLine in different ways:
 
-| Users | How they use it | What they care about |
-|-------|-----------------|----------------------|
-| **Executives and senior leaders** | Understand root causes, their roles in shifts | Trade offs, prioritisation, impact |
-| **CDO and data leadership teams** | Foundations, shifts, sequencing, dependency mapping | Alignment, realistic delivery plans, early signals, cross team clarity |
-| **Portfolio, PMO, finance and benefits teams** | Causal chain, indicators, contribution to impact | Investment rationale, duplication, benefits evidence |
-| **Cross functional delivery teams** | Understand their part in the system | Blockers, adoption, dependencies, reuse |
-| **ALBs and federated partners** | A consistent view of maturity and outcomes without league tables | Autonomy with alignment, transparency, predictable collaboration |
-
----
-
-### Using the dashboard in sessions
-
-When running workshops or leadership conversations:
-
-1. Start with the high level story (Levels 1, 2, 3).  
-2. Walk through the Executive Decision Box.  
-3. Review leading and signal indicators before lagging metrics.  
-4. Use the **bias prompt cards** as a short decision hygiene step:  
-   - “If this bias were present, how would it distort what we are seeing?”  
-
-This keeps conversations grounded and reduces misinterpretation of early signals.
+| Users | How they use it | What they focus on |
+|-------|------------------|--------------------|
+| **Executives** | Understand causes, steer direction | Priorities, trade-offs, outcomes |
+| **CDO & data leaders** | Shape foundations, track shifts | Dependencies, sequencing |
+| **PMO, Finance, Benefits** | Connect work → outcomes | Evidence, duplication, rationale |
+| **Delivery teams** | Understand their role in the system | Adoption, blockers, reuse |
+| **Federated partners** | Shared view without league tables | Coherence, autonomy, transparency |
 
 ---
 
-## 6. What this repository includes
+### **Using ValueLine in sessions**
 
-- HTML conceptual dashboard  
-- methodology notes and metric catalogue  
-- bias and decision hygiene prompt cards
+1. Start with Levels 1 → 2 → 3  
+2. Review shifts and early signals  
+3. Explore indicators in order (leading → signal → lagging)  
+4. Use **bias prompts** to reduce misinterpretation  
+
+This strengthens decision hygiene and avoids false confidence.
+
+---
+
+# 6. Repository contents
+
+- Conceptual HTML dashboard  
+- Methodology notes  
+- Metric catalogue  
+- Bias prompt cards  
 - Excel input template  
 - PowerPoint generator  
-- light touch architecture notes  
-- synthetic datasets  
+- Synthetic datasets  
 
 ---
 
-## 7. Status
+# 7. Status
 
-- ✅ HTML conceptual dashboard  
+- ✅ HTML dashboard  
 - 🟡 Excel template (MVP)  
 - 🟡 PowerPoint generator (MVP)  
 - 🟡 Power BI template (MVP)  
-- ⬜ Streamlit app (future)  
+- ⬜ Streamlit app (planned)  
 
 ---
 
-## 8. Limitations
+# 8. Limitations
+
+ValueLine has some important limitations:
 
 - synthetic data only  
-- not a scorecard or benchmark  
-- attribution remains approximate  
-- evidence quality improves over time  
+- attribution approximate  
+- not a benchmark or scorecard  
 - outcomes lag  
-- maturity scores are directional  
+- evidence quality improves over time  
 
-Use alongside your own evidence, governance and judgement.
+Use alongside governance, expertise and judgement.
 
 ---
 
-## 9. Contributing and reuse
+# 9. Contributing
 
 You are welcome to:
 
 - fork and customise  
 - propose improvements  
-- share alternative layouts or metrics  
+- share alternative metrics or layouts  
 
-Attribution is optional but appreciated.
+Attribution appreciated.
 
 ---
 
-## 10. Why I created ValueLine
+# 10. Why I created ValueLine
 
-Across federated teams and dozens of data strategies, I kept seeing the same pattern:
+Across federated teams and multiple data strategies, I kept seeing:
 
 - strong foundational work  
-- unclear value story  
+- unclear value stories  
 - drifting expectations  
-- late value signals  
-- weak connection between foundations, maturity and outcomes  
+- late signals  
+- weak connection between foundations → maturity → outcomes  
 
-ValueLine is my way of making that connection clearer and more usable, shaped through trial and error, reflection and generous guidance from colleagues.
-
-If it helps teams focus on what matters and communicate impact with greater confidence, it will have done its job.
-
-If useful, here is a short talk where I share some of the thinking that influenced this model:
+ValueLine is my attempt to make that connection clearer, earlier and more actionable.
 
 <p align="center">
   <a href="https://www.brighttalk.com/webcast/12405/602410" target="_blank">
