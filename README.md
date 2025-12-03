@@ -126,10 +126,10 @@ ValueLine focuses on **shifts**, not maturity scores.
 ### **Level 2 — Maturity shifts (aligned to 2023 Government Data Maturity themes)**
 
 - **Uses** — reactive reporting → proactive, routine use of data in decisions  
-- **Data** — hard to find and inconsistent, with perceived legal barriers → easy to discover, easy to reuse and confidently shared across domains  
+- **Data** — hard to find and inconsistent → easy to discover, reuse and combine  
 - **Leadership** — passive awareness → active sponsorship and role modelling   
 - **Culture** — low confidence and over caution → everyday, confident and responsible data use and sharing  
-- **Tools** — legacy heavy, fragmented, expert-led systems → simpler, joined up tools that reduce friction and support intuitive self service  
+- **Tools** — legacy heavy, fragmented, expert-led → joined up tools that reduce friction and support intuitive self service  
 - **Skills** — pockets of expertise → widespread literacy and continuous learning  
 
 ### **Level 3 — Outcome & impact shifts**
