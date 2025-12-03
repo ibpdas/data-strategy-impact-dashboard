@@ -38,7 +38,8 @@ A unified model for public sector data leaders to align strategy, diagnose progr
 # Concept in 30 seconds
 
 **Public sector leaders care deeply about outcomes, but the connection between foundational data work and visible impact is often unclear.**  
-Foundations are invisible, maturity develops unevenly, and outcomes appear late — making it difficult to justify investment, prioritise the right work or read early signals of progress.
+
+Foundations are invisible, maturity develops unevenly, and outcomes appear late, making it difficult to justify investment, prioritise the right work or read early signals of progress.
 
 This leads to common system level challenges:
 
