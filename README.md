@@ -99,7 +99,7 @@ The strategic logic model explains how **foundations enable maturity**, and how 
 Shared directions, clearer ownership, common capabilities, sideways communities and engagement.
 
 **Level 2 — Maturity**  
-Reuse, interoperability, culture of data sharing and data informed decisions.
+Coherent, reusable data; interoperable systems; integrated tools; confident data culture; and everyday data informed decisions.
 
 **Level 3 — Outcomes & impact**  
 Efficiency, productivity, service quality, user satisfaction and public good impact.
