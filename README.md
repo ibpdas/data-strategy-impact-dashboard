@@ -36,7 +36,7 @@ A unified model for public sector data leaders to align strategy, diagnose progr
 
 # Concept in 30 seconds
 
-**Public sector leaders care deeply about outcomes, but the connection between foundational data work and visible impact is often unclear.**  
+Public sector leaders care deeply about outcomes, but the connection between foundational data work and visible impact is often unclear.
 
 Foundations are invisible, maturity develops unevenly, and outcomes appear late, making it difficult to justify investment, prioritise the right work or read early signals of progress.
 
@@ -96,10 +96,10 @@ The strategic logic model explains how **foundations enable maturity**, and how 
 ### **The three levels**
 
 **Level 1 — Foundations**  
-Strategy alignment, shared ownership, common platforms, reusable standards, communities and engagement.
+Shared directions, clearer ownership, common capabilities, sideways communities and engagement.
 
 **Level 2 — Maturity**  
-Reuse, interoperability, confident data culture, collaboration and evidence-informed decisions.
+Reuse, interoperability, culture of data sharing and data informed decisions.
 
 **Level 3 — Outcomes & impact**  
 Efficiency, productivity, service quality, user satisfaction and public good impact.
@@ -119,9 +119,9 @@ ValueLine focuses on **shifts**, not maturity scores.
 
 - **Strategy** — isolated initiatives → shared, cross-cutting priorities  
 - **Leadership** — “their data problem” → shared ownership and accountability  
-- **Platforms & standards** — fragmented local fixes → common, reusable platforms and standards  
+- **Foundations** — fragmented local fixes → common, reusable platforms, policies and standards  
 - **Community** — pockets of innovation → shared practice, knowledge exchange and reusable assets  
-- **Engagement** — ad hoc conversations → ongoing, structured cross functional engagement  
+- **Engagement** — ad hoc conversations → ongoing, structured cross-functional engagement  
 
 ### **Level 2 — Maturity shifts (aligned to 2023 Government Data Maturity themes)**
 
